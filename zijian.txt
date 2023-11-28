@@ -1,5 +1,6 @@
 直播,#genre#
 CCTV-1,https://cfyy.cc/api/ysp/cctv1.m3u8
+CCTV-1,https://iptv.luas.edu.cn/liverespath/b455c7a019d404d571655c457e0ee8a9440a7802/e0eea3f2cd-0-0-7b16046e28b9e794d06c5fbcc82d37b9/index.m3u8
 CCTV-2,https://cfyy.cc/api/ysp/cctv2.m3u8
 CCTV-3,https://cfyy.cc/api/ysp/cctv3.m3u8
 CCTV-4,https://cfyy.cc/api/ysp/cctv4.m3u8
