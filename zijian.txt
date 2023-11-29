@@ -10,6 +10,7 @@ CCTV-4,https://iptv.luas.edu.cn/liverespath/c70d81eefb04fef7777c2a5aab4ddc9459ce
 CCTV-5,https://cfyy.cc/api/ysp/cctv5.m3u8
 CCTV-5,https://iptv.luas.edu.cn/liverespath/3f76badfb3a23d95f26ff573a93902bbdb8b8e98/d576df8c0b-0-0-2de19686e2172f351d6e90c142a0be07/index.m3u8
 CCTV-5+,https://cfyy.cc/api/ysp/cctv5p.m3u8
+CCTV-5+,https://iptv.luas.edu.cn/liverespath/7b02d30e42de3c0078c158ce81421accad3a8400/503cc020ac-0-0-1302b6eda0d18832e18611c25ddded2d/index.m3u8
 CCTV-6,https://cfyy.cc/api/ysp/cctv6.m3u8
 CCTV-6,https://iptv.luas.edu.cn/liverespath/f2f39ee2105c85c32df375728a51b5d89d3afab4/113ed89f48-0-0-85216e55861329ec31ba1437a2ff37c9/index.m3u8
 CCTV-7,https://cfyy.cc/api/ysp/cctv7.m3u8
