@@ -1,7 +1,7 @@
 <?php
 $content = file_get_contents('./zijian.m3u8');
 $array   = explode('#EXTM3U', $content);
-$hander  = fopen('zijian.txt', 'w');
+$hander  = fopen('zijian_convert.txt', 'w');
 fputs($hander, '直播,#genre#'. PHP_EOL);
 foreach ($array as $item) {
     if (empty($item)) {
