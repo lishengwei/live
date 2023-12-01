@@ -38,17 +38,15 @@ foreach ($urls as $url) {
         if (isset($allChannles[$line])) {
             continue;
         }
-        try {
-            $res = Configs::isM3U8Playable($url);
-            $msg = '成功';
-        } catch (\Exception $e) {
-            $msg = '失败,' . $e->getMessage();
-            continue;
-        }
+        $msg = 'end';
+//        try {
+//            $res = Configs::isM3U8Playable($url);
+//            $msg = '成功';
+//        } catch (\Exception $e) {
+//            $msg = '失败,' . $e->getMessage();
+//            continue;
+//        }
         echo '检查 ' . $name . '----->>>>------' . $standardName . '----->>>>------' . $msg . PHP_EOL;
-        if (!$res) {
-            continue;
-        }
         $allChannles[$line] = $line;
     }
 }
