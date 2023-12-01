@@ -1,5 +1,5 @@
 <?php
-$content = file_get_contents('./zijian.txt');
+$content = file_get_contents('./zijian2.txt');
 $array   = explode(PHP_EOL, $content);
 $hander  = fopen('zijian_convert.m3u8', 'w');
 foreach ($array as $item) {
