@@ -1,8 +1,8 @@
 <?php
-include_once 'Configs.php';
 $searchKeys = [];
 $blockKeys  = [];
 include_once 'config.php';
+include_once LOCAL_DIR . '/Configs.php';
 $urls = [
     'https://raw.gitmirror.com/lishengwei/live/main/zijian.txt' => [],
     'https://www.huichunniao.cn/xh/lib/live.txt'                => [],
