@@ -2,14 +2,15 @@
 include_once 'Configs.php';
 $standardNames = include_once 'standard_names.php';
 $urls          = [
-    'https://raw.gitmirror.com/lishengwei/live/main/zijian.txt',
-    'https://www.huichunniao.cn/xh/lib/live.txt',
-    'https://www.huichunniao.cn/vip/ysc/lib/live.txt',
+    'https://raw.gitmirror.com/lishengwei/live/main/zijian.txt' => [],
+    'https://www.huichunniao.cn/xh/lib/live.txt'                => [],
+    'https://www.huichunniao.cn/vip/ysc/lib/live.txt'           => [],
+    'http://8.210.232.168/xclive.txt'                           => ['tvmvip.com'],
 ];
 
 $allChannles = [];
 $noNames     = [];
-foreach ($urls as $url) {
+foreach ($urls as $url => $hosts) {
     $items = Configs::getContent($url);
     foreach ($items as $item) {
         $name         = $item['name'];
@@ -33,19 +34,23 @@ foreach ($urls as $url) {
         if (!empty(Configs::getBlockHosts()[$host])) {
             continue;
         }
+        // 只保留host在白名单中的
+        if (!empty($hosts) && !in_array($host, $hosts)) {
+            continue;
+        }
         // 过滤掉已经存在的
         $line = $standardName . ',' . $url;
         if (isset($allChannles[$line])) {
             continue;
         }
         $msg = 'end';
-//        try {
-//            $res = Configs::isM3U8Playable($url);
-//            $msg = '成功';
-//        } catch (\Exception $e) {
-//            $msg = '失败,' . $e->getMessage();
-//            continue;
-//        }
+        //        try {
+        //            $res = Configs::isM3U8Playable($url);
+        //            $msg = '成功';
+        //        } catch (\Exception $e) {
+        //            $msg = '失败,' . $e->getMessage();
+        //            continue;
+        //        }
         echo '检查 ' . $name . '----->>>>------' . $standardName . '----->>>>------' . $msg . PHP_EOL;
         $allChannles[$line] = $line;
     }
