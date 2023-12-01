@@ -1,7 +1,9 @@
 <?php
 include_once 'Configs.php';
-$standardNames = include_once 'standard_names.php';
-$urls          = [
+$searchKeys = [];
+$blockKeys  = [];
+include_once 'config.php';
+$urls = [
     'https://raw.gitmirror.com/lishengwei/live/main/zijian.txt' => [],
     'https://www.huichunniao.cn/xh/lib/live.txt'                => [],
     'https://www.huichunniao.cn/vip/ysc/lib/live.txt'           => [],
@@ -16,7 +18,7 @@ foreach ($urls as $url => $hosts) {
         $name         = $item['name'];
         $url          = $item['url'];
         $standardName = $standardNames[$name] ?? '';
-        $stay         = Configs::isStay($name);
+        $stay         = Configs::isStay($name, $searchKeys, $blockKeys);
         if (empty($standardName) && $stay) {
             $noNames[$name] = $name;
             continue;
