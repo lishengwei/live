@@ -66,7 +66,7 @@ if (!empty($noNames)) {
 }
 $allChannles = array_values($allChannles);
 sort($allChannles, SORT_NATURAL);
-$hander = fopen('zijian2.txt', 'w+');
+$hander = fopen(LOCAL_DIR . 'zijian2.txt', 'w+');
 fwrite($hander, '聚合直播,#genre#' . PHP_EOL);
 foreach ($allChannles as $item) {
     fwrite($hander, $item . PHP_EOL);
