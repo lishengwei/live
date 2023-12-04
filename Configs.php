@@ -11,19 +11,39 @@ class Configs
     public static function getContent($url)
     {
         $content = file_get_contents($url);
-        $array   = array_filter(explode(PHP_EOL, $content));
-        $items   = [];
-        foreach ($array as $item) {
-            $item = trim($item);
+        $isM3u8  = false;
+        if (strpos($content, '#EXTINF') !== false) {
+            $isM3u8 = true;
+        }
+        $array = array_filter(explode(PHP_EOL, $content));
+        $items = [];
+        $i     = 0;
+        while (true) {
+            if (!isset($array[$i])) {
+                break;
+            }
+            $item = trim($array[$i]);
+            $i++;
             if (empty($item)) {
                 continue;
             }
-            $arr = explode(',', $item);
-            if (empty($arr)) {
-                continue;
+            if ($isM3u8) {
+                $name = $url = '';
+                if (strpos($item, '#EXTINF') !== false) {
+                    $names = explode(',', $item);
+                    $name  = $names[1];
+                }
+                if (isset($array[$i]) && strpos(trim($array[$i]), 'http') !== false) {
+                    $url = $array[$i];
+                }
+            } else {
+                $arr = explode(',', $item);
+                if (empty($arr)) {
+                    continue;
+                }
+                $name = isset($arr[0]) ? trim($arr[0]) : '';
+                $url  = isset($arr[1]) ? trim($arr[1]) : '';
             }
-            $name = isset($arr[0]) ? trim($arr[0]) : '';
-            $url  = isset($arr[1]) ? trim($arr[1]) : '';
             if ($url == '#genre#') {
                 continue;
             }

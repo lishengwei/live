@@ -4,6 +4,7 @@ $blockKeys  = [];
 include_once 'config.php';
 include_once LOCAL_DIR . '/Configs.php';
 $urls = [
+    'https://ddns.10086.fund:23350/iptv.m3u'                    => [],
     'https://raw.gitmirror.com/lishengwei/live/main/zijian.txt' => [],
     'https://www.huichunniao.cn/xh/lib/live.txt'                => [],
     'https://www.huichunniao.cn/vip/ysc/lib/live.txt'           => [],
@@ -53,7 +54,7 @@ foreach ($urls as $url => $hosts) {
         //            $msg = '失败,' . $e->getMessage();
         //            continue;
         //        }
-        echo '检查 ' . $name . '----->>>>------' . $standardName . '----->>>>------' . $msg . PHP_EOL;
+        echo '检查 ' . $name . '----->>>>------' . $standardName . '----->>>>------' . $url . ' -- ' .  $msg . PHP_EOL;
         $allChannles[$line] = $line;
     }
 }
@@ -66,7 +67,7 @@ if (!empty($noNames)) {
 }
 $allChannles = array_values($allChannles);
 sort($allChannles, SORT_NATURAL);
-$hander = fopen(LOCAL_DIR . 'zijian2.txt', 'w+');
+$hander = fopen(LOCAL_DIR . '/zijian2.txt', 'w+');
 fwrite($hander, '聚合直播,#genre#' . PHP_EOL);
 foreach ($allChannles as $item) {
     fwrite($hander, $item . PHP_EOL);
