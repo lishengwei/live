@@ -80,6 +80,11 @@ class Configs
         ];
     }
 
+    public static function getWhiteHosts()
+    {
+        return [];
+    }
+
 
     public static function isM3U8Playable($url)
     {
