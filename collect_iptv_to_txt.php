@@ -1,20 +1,15 @@
 <?php
+$urls       = [];
 $searchKeys = [];
 $blockKeys  = [];
 include_once 'config.php';
 include_once LOCAL_DIR . '/Configs.php';
-$urls = [
-    'https://ddns.10086.fund:23350/iptv.m3u',
-    'https://raw.gitmirror.com/lishengwei/live/main/zijian.txt',
-    'https://www.huichunniao.cn/xh/lib/live.txt',
-    'https://www.huichunniao.cn/vip/ysc/lib/live.txt',
-    'http://8.210.232.168/xclive.txt',
-];
 
 $allChannles = [];
 $noNames     = [];
-foreach ($urls as $url) {
-    $items = Configs::getContent($url);
+foreach ($urls as $urlInfo) {
+    $hosts = $urlInfo['hosts'];
+    $items = Configs::getContent($urlInfo['url']);
     foreach ($items as $item) {
         $name         = $item['name'];
         $url          = $item['url'];
@@ -38,7 +33,6 @@ foreach ($urls as $url) {
             continue;
         }
         // 只保留host在白名单中的
-        $hosts = Configs::getWhiteHosts();
         if (!empty($hosts) && !in_array($host, $hosts)) {
             continue;
         }

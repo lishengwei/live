@@ -80,12 +80,6 @@ class Configs
         ];
     }
 
-    public static function getWhiteHosts()
-    {
-        return [];
-    }
-
-
     public static function isM3U8Playable($url)
     {
         // 使用cURL库初始化一个请求
