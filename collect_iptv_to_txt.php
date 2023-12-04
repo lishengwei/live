@@ -69,10 +69,9 @@ if (!empty($noNames)) {
 $allChannles = array_values($allChannles);
 sort($allChannles, SORT_NATURAL);
 $hander = fopen(LOCAL_DIR . '/zijian2.txt', 'w+');
-echo LOCAL_DIR . '/zijian2.txt' . PHP_EOL;
 fwrite($hander, '聚合直播,#genre#' . PHP_EOL);
 foreach ($allChannles as $item) {
     fwrite($hander, $item . PHP_EOL);
 }
 fclose($hander);
-echo '转换完成';
+echo '转换完成，文件存储至：' . LOCAL_DIR . '/zijian2.txt' . PHP_EOL;
