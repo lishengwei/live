@@ -15,7 +15,7 @@ class Configs
         if (strpos($content, '#EXTINF') !== false) {
             $isM3u8 = true;
         }
-        $array = array_filter(explode(PHP_EOL, $content));
+        $array = array_values(array_filter(explode(PHP_EOL, $content)));
         $items = [];
         $i     = 0;
         while (true) {
