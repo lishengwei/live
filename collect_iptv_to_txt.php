@@ -11,7 +11,7 @@ foreach ($urls as $urlInfo) {
     $hosts = $urlInfo['hosts'];
     $items = Configs::getContent($urlInfo['url']);
     foreach ($items as $item) {
-        $name         = $item['name'];
+        $name         = mb_strtoupper($item['name']);
         $url          = $item['url'];
         $standardName = $standardNames[$name] ?? '';
         $stay         = Configs::isStay($name, $searchKeys, $blockKeys);
