@@ -2,6 +2,7 @@
 $urls       = [];
 $searchKeys = [];
 $blockKeys  = [];
+$blockHosts = [];
 include_once 'config.php';
 include_once LOCAL_DIR . '/Configs.php';
 
@@ -29,7 +30,7 @@ foreach ($urls as $urlInfo) {
         // 获取url的host
         $host = parse_url($url, PHP_URL_HOST);
         // 过滤掉host在黑名单中的
-        if (!empty(Configs::getBlockHosts()[$host])) {
+        if (!empty($blockHosts[$host])) {
             continue;
         }
         // 只保留host在白名单中的

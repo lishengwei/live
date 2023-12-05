@@ -73,13 +73,6 @@ class Configs
         return false;
     }
 
-    public static function getBlockHosts()
-    {
-        return [
-            'iptv.luas.edu.cn' => 'iptv.luas.edu.cn',
-        ];
-    }
-
     public static function isM3U8Playable($url)
     {
         // 使用cURL库初始化一个请求
