@@ -20,4 +20,8 @@ return [
         'url'   => 'http://8.210.232.168/xclive.txt',
         'hosts' => []
     ],
+    [
+        'url'   => 'https://raw.githubusercontent.com/sumingyd/Telecom-Shandong-IPTV-List/main/Unicom-Shandong-Dongying.m3u',
+        'hosts' => []
+    ],
 ];
