@@ -10,7 +10,20 @@ class Configs
      */
     public static function getContent($url)
     {
-        $content = file_get_contents($url);
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, $url);
+        curl_setopt($ch, CURLOPT_TIMEOUT, 10); // 设置超时时间，单位为秒
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false); // 跳过证书检查
+        curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false); // 跳过证书检查
+        curl_setopt($ch, CURLOPT_HTTPHEADER, [
+            'User-Agent: VLC/3.0.20 LibVLC/3.0.20'
+        ]);
+        curl_setopt($ch, CURLOPT_PROXY, '127.0.0.1');
+        curl_setopt($ch, CURLOPT_PROXYPORT, '7890');
+        $content = curl_exec($ch);
+        curl_close($ch);
+//        $content = file_get_contents($url);
         $isM3u8  = false;
         if (strpos($content, '#EXTINF') !== false) {
             $isM3u8 = true;
