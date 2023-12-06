@@ -22,6 +22,7 @@ return [
     ],
     [
         'url'   => 'https://raw.githubusercontent.com/sumingyd/Telecom-Shandong-IPTV-List/main/Unicom-Shandong-Dongying.m3u',
-        'hosts' => []
+        'hosts' => [],
+        'proxy' => true
     ],
 ];

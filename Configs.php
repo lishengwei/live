@@ -5,10 +5,11 @@ class Configs
     /**
      * 从外部的txt文件中，抓取内容
      * 仅抓取内容，不做数据格式的验证
-     * @param $url
+     * @param      $url
+     * @param bool $proxy 是否使用代理
      * @return array
      */
-    public static function getContent($url)
+    public static function getContent($url, $proxy = false)
     {
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, $url);
@@ -19,11 +20,12 @@ class Configs
         curl_setopt($ch, CURLOPT_HTTPHEADER, [
             'User-Agent: VLC/3.0.20 LibVLC/3.0.20'
         ]);
-        curl_setopt($ch, CURLOPT_PROXY, '127.0.0.1');
-        curl_setopt($ch, CURLOPT_PROXYPORT, '7890');
+        if ($proxy && !empty(PROXY_HOST) && !empty(PROXY_PORT)) {
+            curl_setopt($ch, CURLOPT_PROXY, PROXY_HOST);
+            curl_setopt($ch, CURLOPT_PROXYPORT, PROXY_PORT);
+        }
         $content = curl_exec($ch);
         curl_close($ch);
-//        $content = file_get_contents($url);
         $isM3u8  = false;
         if (strpos($content, '#EXTINF') !== false) {
             $isM3u8 = true;
@@ -44,7 +46,7 @@ class Configs
                 $name = $url = '';
                 if (strpos($item, '#EXTINF') !== false) {
                     $names = explode(',', $item);
-                    $name  = $names[1];
+                    $name  = $names[count($names) - 1];
                 }
                 if (isset($array[$i]) && strpos(trim($array[$i]), 'http') !== false) {
                     $url = $array[$i];
