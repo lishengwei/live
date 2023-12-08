@@ -25,4 +25,9 @@ return [
         'hosts' => [],
         'proxy' => true
     ],
+    [
+        'url'   => 'https://hmg.pw:9999/tv1.txt',
+        'hosts' => [],
+        'proxy' => false
+    ]
 ];
