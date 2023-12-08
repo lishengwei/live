@@ -1,11 +1,11 @@
 <?php
 return [
     [
-        'url'   => 'https://ddns.10086.fund:23350/iptv.m3u',
+        'url'   => 'https://raw.gitmirror.com/lishengwei/live/main/zijian.txt',
         'hosts' => [],
     ],
     [
-        'url'   => 'https://raw.gitmirror.com/lishengwei/live/main/zijian.txt',
+        'url'   => 'https://ddns.10086.fund:23350/iptv.m3u',
         'hosts' => [],
     ],
     [
