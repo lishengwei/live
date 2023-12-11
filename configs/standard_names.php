@@ -302,4 +302,6 @@ return [
     'CCTV14高清' => 'CCTV-14',
     'CCTV15高清' => 'CCTV-15',
     'CCTV16高清' => 'CCTV-16',
+    'CCTV1高清' => 'CCTV-1',
+    'CCTV5+CCTV' => 'CCTV-5+',
 ];
