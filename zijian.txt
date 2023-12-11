@@ -1,4 +1,5 @@
 直播,#genre#
+CCTV13,https://live-play.cctvnews.cctv.com/cctv/merge_cctv13_mud.m3u8
 
 CCTV1,http://gs.tuntun.tech:6688/udp/239.93.0.184:5140
 CCTV2,http://gs.tuntun.tech:6688/udp/239.93.1.23:6000
