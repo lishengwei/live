@@ -23,15 +23,15 @@ foreach ($urls as $urlInfo) {
         $url          = $item['url'];
         $standardName = $standardNames[$name] ?? '';
         $stay         = Configs::isStay($name, $searchKeys, $blockKeys);
-        if (empty($standardName) && $stay) {
-            $noNames[$name] = $name;
-            continue;
-        }
         if (!$stay) {
             continue;
         }
         // 过滤ipv6地址
         if (strpos($url, '[') !== false) {
+            continue;
+        }
+        if (empty($standardName)) {
+            $noNames[$name] = $name;
             continue;
         }
         // 获取url的host
