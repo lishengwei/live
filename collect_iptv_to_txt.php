@@ -4,19 +4,27 @@ $searchKeys    = [];
 $blockKeys     = [];
 $blockHosts    = [];
 $standardNames = [];
-$wsNames       = [];
 include_once 'config.php';
 include_once LOCAL_DIR . '/Configs.php';
 
-$sort = [];
+$sort            = [];
+$uniqueNames     = [];
+$uniqueCCTVNames = [
+    'CCTV2', 'CCTV02', 'CCTV3', 'CCTV03', 'CCTV4', 'CCTV04', 'CCTV6', 'CCTV06', 'CCTV7', 'CCTV07',
+    'CCTV8', 'CCTV08', 'CCTV9', 'CCTV09', 'CCTV10', 'CCTV11', 'CCTV12', 'CCTV13', 'CCTV14', 'CCTV15',
+    'CCTV16', 'CCTV17', 'CCTV-2', 'CCTV-02', 'CCTV-3', 'CCTV-03', 'CCTV-4', 'CCTV-04', 'CCTV-6', 'CCTV-06',
+    'CCTV-7', 'CCTV-07', 'CCTV-8', 'CCTV-08', 'CCTV-9', 'CCTV-09', 'CCTV-10', 'CCTV-11', 'CCTV-12',
+    'CCTV-13', 'CCTV-14', 'CCTV-15', 'CCTV-16', 'CCTV-17',
+    'CCTV01',
+];
 foreach ($standardNames as $standardName) {
     $sort[] = $standardName;
     if (strpos($standardName, '卫视') !== false) {
-        $wsNames[] = $standardName;
+        $uniqueNames[] = $standardName;
     }
 }
 $sort        = array_values(array_unique($sort));
-$allChannles = [];
+$allChannels = [];
 $noNames     = [];
 $infos       = [];
 foreach ($urls as $urlInfo) {
@@ -32,9 +40,17 @@ foreach ($urls as $urlInfo) {
         }
         // 如果没搜索到，试试判断卫视名称，因为卫视名称比较唯一
         if (empty($standardName) && strpos($name, '卫视') !== false) {
-            foreach ($wsNames as $wsName) {
-                if (strpos($name, $wsName) !== false) {
-                    $standardName = $wsName;
+            foreach ($uniqueNames as $uniqueName) {
+                if (strpos($name, $uniqueName) !== false) {
+                    $standardName = $uniqueName;
+                    break;
+                }
+            }
+        }
+        if (empty($standardName) && strpos($name, 'CCTV') !== false) {
+            foreach ($uniqueCCTVNames as $uniqueName) {
+                if (strpos($name, $uniqueName) !== false) {
+                    $standardName = $standardNames[$uniqueName];
                     break;
                 }
             }
@@ -59,11 +75,11 @@ foreach ($urls as $urlInfo) {
         }
         // 过滤掉已经存在的
         $line = $standardName . ',' . $url;
-        if (isset($allChannles[$line])) {
+        if (isset($allChannels[$line])) {
             continue;
         }
         echo '检查 ' . $name . '----->>>>------' . $standardName . '----->>>>------' . $url . ' -- end' . PHP_EOL;
-        $allChannles[$line]     = $line;
+        $allChannels[$line]     = $line;
         $infos[$standardName][] = [
             'name' => $standardName,
             'url'  => $url,
