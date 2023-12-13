@@ -304,4 +304,13 @@ return [
     'CCTV16高清' => 'CCTV-16',
     'CCTV1高清' => 'CCTV-1',
     'CCTV5+CCTV' => 'CCTV-5+',
+    'CCTV1杜比' => 'CCTV-1',
+    'CCTV16 4K' => 'CCTV-16',
+    'CCTV16-4K' => 'CCTV-16',
+    'CCTV5+2' => 'CCTV-5+',
+    '东方卫视2' => '东方卫视',
+    '广东卫视2' => '广东卫视',
+    'CCTV5-' => 'CCTV-5',
+    'CCTV5+ 体育赛事' => 'CCTV-5+',
+    'CCTV5体育高清' => 'CCTV-5',
 ];
