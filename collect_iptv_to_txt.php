@@ -4,14 +4,18 @@ $searchKeys    = [];
 $blockKeys     = [];
 $blockHosts    = [];
 $standardNames = [];
+$wsNames       = [];
 include_once 'config.php';
 include_once LOCAL_DIR . '/Configs.php';
 
 $sort = [];
 foreach ($standardNames as $standardName) {
     $sort[] = $standardName;
+    if (strpos($standardName, '卫视') !== false) {
+        $wsNames[] = $standardName;
+    }
 }
-$sort = array_values(array_unique($sort));
+$sort        = array_values(array_unique($sort));
 $allChannles = [];
 $noNames     = [];
 $infos       = [];
@@ -25,6 +29,15 @@ foreach ($urls as $urlInfo) {
         $stay         = Configs::isStay($name, $searchKeys, $blockKeys);
         if (!$stay) {
             continue;
+        }
+        // 如果没搜索到，试试判断卫视名称，因为卫视名称比较唯一
+        if (empty($standardName) && strpos($name, '卫视') !== false) {
+            foreach ($wsNames as $wsName) {
+                if (strpos($name, $wsName) !== false) {
+                    $standardName = $wsName;
+                    break;
+                }
+            }
         }
         // 过滤ipv6地址
         if (strpos($url, '[') !== false) {
@@ -50,8 +63,8 @@ foreach ($urls as $urlInfo) {
             continue;
         }
         echo '检查 ' . $name . '----->>>>------' . $standardName . '----->>>>------' . $url . ' -- end' . PHP_EOL;
-        $allChannles[$line] = $line;
-        $infos[$standardName][]     = [
+        $allChannles[$line]     = $line;
+        $infos[$standardName][] = [
             'name' => $standardName,
             'url'  => $url,
         ];
