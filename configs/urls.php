@@ -29,5 +29,10 @@ return [
         'url'   => 'https://www.hmg.pw:9999/tv.txt',
         'hosts' => [],
         'proxy' => false
+    ],
+    [
+        'url'   => 'https://raw.githubusercontent.com/lishengwei/live/main/api.txt',
+        'hosts' => [],
+        'proxy' => true
     ]
 ];
