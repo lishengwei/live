@@ -47,6 +47,7 @@ foreach ($urls as $urlInfo) {
                 }
             }
         }
+        // cctv的名称搜索，出了cctv1和cctv5
         if (empty($standardName) && strpos($name, 'CCTV') !== false) {
             foreach ($uniqueCCTVNames as $uniqueName) {
                 if (strpos($name, $uniqueName) !== false) {
@@ -55,7 +56,7 @@ foreach ($urls as $urlInfo) {
                 }
             }
         }
-        // 过滤ipv6地址
+        // 目前是ipv4的，所以过滤掉ipv6地址
         if (strpos($url, '[') !== false) {
             continue;
         }
@@ -79,8 +80,10 @@ foreach ($urls as $urlInfo) {
             continue;
         }
         echo '检查 ' . $name . '----->>>>------' . $standardName . '----->>>>------' . $url . ' -- end' . PHP_EOL;
-        $allChannels[$line]     = $line;
-        $infos[$standardName][] = [
+        $allChannels[$line] = $line;
+
+        // infos 需要下面进行有效性检查
+        $infos[$host][] = [
             'name' => $standardName,
             'url'  => $url,
         ];
@@ -95,18 +98,36 @@ if (!empty($noNames)) {
     exit();
 }
 
-$all = [];
-foreach ($sort as $sortName) {
-    if (empty($infos[$sortName])) {
-        continue;
+echo '数据抓取完毕，开始检查有效性' . PHP_EOL;
+$error      = fopen(LOCAL_DIR . '/error.txt', 'w+');
+$validInfos = [];
+foreach ($infos as $host => $channels) {
+    $check = false;
+    try {
+        $check = Configs::isM3U8Playable($channels[0]['url']);
+        foreach ($channels as $channel) {
+            $validInfos[$channel['name']][] = $channel;
+        }
+    } catch (Exception $e) {
+        foreach ($channels as $channel) {
+            fwrite($error, $channel['name'] . ',' . $channel['url'] . ',' . $e->getMessage() . PHP_EOL);
+        }
     }
-    $all = array_merge($all, $infos[$sortName]);
+    echo $host . ' - ' . ($check ? '可用' : '不可用') . "\n";
 }
 
-$hander = fopen(LOCAL_DIR . '/zijian2.txt', 'w+');
-fwrite($hander, '聚合直播,#genre#' . PHP_EOL);
-foreach ($all as $item) {
-    fwrite($hander, $item['name'] . ',' . $item['url'] . PHP_EOL);
+$all = [];
+foreach ($sort as $sortName) {
+    if (empty($validInfos[$sortName])) {
+        continue;
+    }
+    $all = array_merge($all, $validInfos[$sortName]);
 }
-fclose($hander);
+
+$handler = fopen(LOCAL_DIR . '/zijian2.txt', 'w+');
+fwrite($handler, '聚合直播,#genre#' . PHP_EOL);
+foreach ($all as $item) {
+    fwrite($handler, $item['name'] . ',' . $item['url'] . PHP_EOL);
+}
+fclose($handler);
 echo '转换完成，文件存储至：' . LOCAL_DIR . '/zijian2.txt' . PHP_EOL;

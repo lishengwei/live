@@ -95,7 +95,7 @@ class Configs
 
         // 设置cURL选项
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-        curl_setopt($ch, CURLOPT_TIMEOUT, 10); // 设置超时时间，单位为秒
+        curl_setopt($ch, CURLOPT_TIMEOUT, 5); // 设置超时时间，单位为秒
         // 忽略 SSL 证书验证
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
         curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
@@ -115,6 +115,12 @@ class Configs
         // 关闭cURL资源
         curl_close($ch);
 
+        if (!empty($response)) {
+            if (strpos($response, '#EXTM3U') !== false) {
+                return true; // M3U8文件可用
+            }
+        }
+
         // 检查响应状态码和内容
         if ($httpCode == 200) {
             // 检查M3U8文件是否包含 #EXTM3U 标记
@@ -123,7 +129,7 @@ class Configs
             } else {
                 throw new Exception("M3U8文件格式不正确", -1);
             }
-        } else if ($httpCode == 302) {
+        } else if ($httpCode == 302 || $httpCode == 301) {
             if (!empty($curlInfo['redirect_url'])) {
                 return self::isM3U8Playable($curlInfo['redirect_url']);
             }
