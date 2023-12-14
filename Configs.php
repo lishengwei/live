@@ -11,22 +11,26 @@ class Configs
      */
     public static function getContent($url, $proxy = false)
     {
-        $ch = curl_init();
-        curl_setopt($ch, CURLOPT_URL, $url);
-        curl_setopt($ch, CURLOPT_TIMEOUT, 10); // 设置超时时间，单位为秒
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false); // 跳过证书检查
-        curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false); // 跳过证书检查
-        curl_setopt($ch, CURLOPT_HTTPHEADER, [
-            'User-Agent: VLC/3.0.20 LibVLC/3.0.20'
-        ]);
-        if ($proxy && !empty(PROXY_HOST) && !empty(PROXY_PORT)) {
-            curl_setopt($ch, CURLOPT_PROXY, PROXY_HOST);
-            curl_setopt($ch, CURLOPT_PROXYPORT, PROXY_PORT);
+        if (strpos($url, 'http') !== false) {
+            $ch = curl_init();
+            curl_setopt($ch, CURLOPT_URL, $url);
+            curl_setopt($ch, CURLOPT_TIMEOUT, 10); // 设置超时时间，单位为秒
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+            curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false); // 跳过证书检查
+            curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false); // 跳过证书检查
+            curl_setopt($ch, CURLOPT_HTTPHEADER, [
+                'User-Agent: VLC/3.0.20 LibVLC/3.0.20'
+            ]);
+            if ($proxy && !empty(PROXY_HOST) && !empty(PROXY_PORT)) {
+                curl_setopt($ch, CURLOPT_PROXY, PROXY_HOST);
+                curl_setopt($ch, CURLOPT_PROXYPORT, PROXY_PORT);
+            }
+            $content = curl_exec($ch);
+            curl_close($ch);
+        } else {
+            $content = file_get_contents($url);
         }
-        $content = curl_exec($ch);
-        curl_close($ch);
-        $isM3u8  = false;
+        $isM3u8 = false;
         if (strpos($content, '#EXTINF') !== false) {
             $isM3u8 = true;
         }
@@ -95,7 +99,7 @@ class Configs
 
         // 设置cURL选项
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-        curl_setopt($ch, CURLOPT_TIMEOUT, 5); // 设置超时时间，单位为秒
+        curl_setopt($ch, CURLOPT_TIMEOUT, 10); // 设置超时时间，单位为秒
         // 忽略 SSL 证书验证
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
         curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);

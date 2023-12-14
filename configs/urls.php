@@ -1,7 +1,7 @@
 <?php
 return [
     [
-        'url'   => 'https://raw.gitmirror.com/lishengwei/live/main/zijian.txt',
+        'url'   => 'zijian.txt',
         'hosts' => [],
     ],
     [
@@ -31,7 +31,7 @@ return [
         'proxy' => false
     ],
     [
-        'url'   => 'https://raw.githubusercontent.com/lishengwei/live/main/api.txt',
+        'url'   => 'api.txt',
         'hosts' => [],
         'proxy' => true
     ]
