@@ -121,18 +121,22 @@ if (!empty($noNames)) {
 $error      = fopen(LOCAL_DIR . '/error.txt', 'w+');
 $validInfos = [];
 foreach ($infos as $host => $channels) {
-    if ($configs['check_url']) {
-        $check = false;
-        try {
+    $check = false;
+    try {
+        if ($configs['check_url']) {
             $check = Configs::isM3U8Playable($channels[0]['url']);
-            foreach ($channels as $channel) {
-                $validInfos[$channel['name']][] = $channel;
-            }
-        } catch (Exception $e) {
-            foreach ($channels as $channel) {
-                fwrite($error, $channel['name'] . ',' . $channel['url'] . ',' . $e->getMessage() . PHP_EOL);
-            }
+        } else {
+            $check = true;
         }
+        foreach ($channels as $channel) {
+            $validInfos[$channel['name']][] = $channel;
+        }
+    } catch (Exception $e) {
+        foreach ($channels as $channel) {
+            fwrite($error, $channel['name'] . ',' . $channel['url'] . ',' . $e->getMessage() . PHP_EOL);
+        }
+    }
+    if ($configs['check_url']) {
         echo $host . ' - ' . ($check ? '可用' : '不可用') . "\n";
     }
 }
