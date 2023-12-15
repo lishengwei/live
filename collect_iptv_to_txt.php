@@ -118,11 +118,10 @@ if (!empty($noNames)) {
     exit();
 }
 
-if ($configs['check_url']) {
-    echo '数据抓取完毕，开始检查有效性' . PHP_EOL;
-    $error      = fopen(LOCAL_DIR . '/error.txt', 'w+');
-    $validInfos = [];
-    foreach ($infos as $host => $channels) {
+$error      = fopen(LOCAL_DIR . '/error.txt', 'w+');
+$validInfos = [];
+foreach ($infos as $host => $channels) {
+    if ($configs['check_url']) {
         $check = false;
         try {
             $check = Configs::isM3U8Playable($channels[0]['url']);
@@ -137,6 +136,7 @@ if ($configs['check_url']) {
         echo $host . ' - ' . ($check ? '可用' : '不可用') . "\n";
     }
 }
+
 
 $all = [];
 foreach ($sort as $sortName) {
