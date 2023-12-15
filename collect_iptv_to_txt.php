@@ -98,6 +98,22 @@ if (!empty($noNames)) {
     foreach ($noNames as $name) {
         echo "'" . $name . "' => ''," . PHP_EOL;
     }
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, 'https://oapi.dingtalk.com/robot/send?access_token=' . file_get_contents(LOCAL_DIR . '/.env'));
+    curl_setopt($ch, CURLOPT_TIMEOUT, 10); // 设置超时时间，单位为秒
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false); // 跳过证书检查
+    curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false); // 跳过证书检查
+    curl_setopt($ch, CURLOPT_POST, 1);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode([
+        'msgtype' => 'text',
+        'text'    => [
+            'content' => 'lishengwei, 以下频道名称没有标准名称：' . PHP_EOL . implode(PHP_EOL, $noNames),
+        ],
+    ]));
+    curl_setopt($ch, CURLOPT_HTTPHEADER, ['Content-Type: application/json;charset=utf-8']);
+    $content = curl_exec($ch);
+    curl_close($ch);
     exit();
 }
 
@@ -107,7 +123,7 @@ $validInfos = [];
 foreach ($infos as $host => $channels) {
     $check = false;
     try {
-//        $check = Configs::isM3U8Playable($channels[0]['url']);
+        //        $check = Configs::isM3U8Playable($channels[0]['url']);
         $check = true;
         foreach ($channels as $channel) {
             $validInfos[$channel['name']][] = $channel;
