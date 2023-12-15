@@ -270,4 +270,8 @@ return [
     'CCTV-06' => 'CCTV-6',
     'CCTV-07' => 'CCTV-7',
     'CCTV-09' => 'CCTV-9',
+    'CETV-01' => 'CETV-1',
+    'CETV-02' => 'CETV-2',
+    'CETV-03' => 'CETV-3',
+    'CETV-04' => 'CETV-4',
 ];

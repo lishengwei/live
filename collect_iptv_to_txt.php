@@ -107,7 +107,8 @@ $validInfos = [];
 foreach ($infos as $host => $channels) {
     $check = false;
     try {
-        $check = Configs::isM3U8Playable($channels[0]['url']);
+//        $check = Configs::isM3U8Playable($channels[0]['url']);
+        $check = true;
         foreach ($channels as $channel) {
             $validInfos[$channel['name']][] = $channel;
         }
