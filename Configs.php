@@ -102,7 +102,7 @@ class Configs
 
         // 设置cURL选项
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-        curl_setopt($ch, CURLOPT_TIMEOUT, 10); // 设置超时时间，单位为秒
+        curl_setopt($ch, CURLOPT_TIMEOUT, 5); // 设置超时时间，单位为秒
         // 忽略 SSL 证书验证
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
         curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);

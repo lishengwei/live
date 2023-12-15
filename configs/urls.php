@@ -1,9 +1,9 @@
 <?php
 return [
-    //    [
-    //        'url'   => 'zijian.txt',
-    //        'hosts' => [],
-    //    ],
+        [
+            'url'   => 'zijian.txt',
+            'hosts' => [],
+        ],
     [
         'url'     => 'https://tvbox.cainisi.cf/TV/',
         'host'    => [],

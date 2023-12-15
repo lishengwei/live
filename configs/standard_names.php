@@ -275,4 +275,7 @@ return [
     'CETV-03'            => 'CETV-3',
     'CETV-04'            => 'CETV-4',
     'CETV-1 576'         => 'CETV-1',
+    'CCTV1-综合'         => 'CCTV-1',
+    'CCTV5-体育'         => 'CCTV-5',
+    'CCTV5+体育赛事'     => 'CCTV-5+',
 ];

@@ -7,4 +7,5 @@ return [
     'CCTV怀旧剧场', 'CCTV兵器科技', 'CCTV-兵器科技', 'CCTV-第一剧场', 'CCTV-电视指南',
     'CCTV-风云剧场', 'CCTV-风云音乐', 'CCTV-风云足球', 'CCTV-高尔夫网球', 'CCTV-怀旧剧场',
     'CCTV-女性时尚', 'CCTV-世界地理', 'CCTV-央视文化精品', 'CCTV-央视台球',
+    '金鹰卫视', 'CETV', 'CCTV新科动漫',
 ];
