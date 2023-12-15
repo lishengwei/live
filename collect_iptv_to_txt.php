@@ -109,7 +109,7 @@ if (!empty($noNames)) {
     curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode([
         'msgtype' => 'text',
         'text'    => [
-            'content' => 'lishengwei, 以下频道名称没有标准名称：' . PHP_EOL . implode(PHP_EOL, $noNames),
+            'content' => 'shellerror : 以下频道名称没有标准名称：' . PHP_EOL . implode(PHP_EOL, $noNames),
         ],
     ]));
     curl_setopt($ch, CURLOPT_HTTPHEADER, ['Content-Type: application/json;charset=utf-8']);
