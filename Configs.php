@@ -5,12 +5,17 @@ class Configs
     /**
      * 从外部的txt文件中，抓取内容
      * 仅抓取内容，不做数据格式的验证
-     * @param      $url
-     * @param bool $proxy 是否使用代理
+     * @param array $urlInfo
+     *      string $urlInfo ['url']
+     *      bool   $urlInfo ['proxy'] 是否使用代理
+     *      array  $urlInfo ['headers'] 是否需要传输header
      * @return array
      */
-    public static function getContent($url, $proxy = false)
+    public static function getContent($urlInfo)
     {
+        $url     = $urlInfo['url'];
+        $proxy   = $urlInfo['proxy'] ?? false;
+        $headers = $urlInfo['headers'] ?? ['User-Agent: VLC/3.0.20 LibVLC/3.0.20'];
         if (strpos($url, 'http') !== false) {
             $ch = curl_init();
             curl_setopt($ch, CURLOPT_URL, $url);
@@ -18,9 +23,7 @@ class Configs
             curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
             curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false); // 跳过证书检查
             curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false); // 跳过证书检查
-            curl_setopt($ch, CURLOPT_HTTPHEADER, [
-                'User-Agent: VLC/3.0.20 LibVLC/3.0.20'
-            ]);
+            curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
             if ($proxy && !empty(PROXY_HOST) && !empty(PROXY_PORT)) {
                 curl_setopt($ch, CURLOPT_PROXY, PROXY_HOST);
                 curl_setopt($ch, CURLOPT_PROXYPORT, PROXY_PORT);

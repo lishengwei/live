@@ -28,11 +28,11 @@ $allChannels = [];
 $noNames     = [];
 $infos       = [];
 foreach ($urls as $urlInfo) {
-    $hosts = $urlInfo['hosts'];
+    $hosts = $urlInfo['hosts'] ?? [];
     if (strpos($urlInfo['url'], 'http') === false) {
         $urlInfo['url'] = LOCAL_DIR . '/' . $urlInfo['url'];
     }
-    $items = Configs::getContent($urlInfo['url'], $urlInfo['proxy'] ?? false);
+    $items = Configs::getContent($urlInfo);
     foreach ($items as $item) {
         $name         = mb_strtoupper($item['name']);
         $url          = $item['url'];
