@@ -4,6 +4,7 @@ $searchKeys    = [];
 $blockKeys     = [];
 $blockHosts    = [];
 $standardNames = [];
+$configs       = [];
 include_once 'config.php';
 include_once LOCAL_DIR . '/Configs.php';
 
@@ -99,7 +100,7 @@ if (!empty($noNames)) {
         echo "'" . $name . "' => ''," . PHP_EOL;
     }
     $ch = curl_init();
-    curl_setopt($ch, CURLOPT_URL, 'https://oapi.dingtalk.com/robot/send?access_token=' . file_get_contents(LOCAL_DIR . '/.env'));
+    curl_setopt($ch, CURLOPT_URL, 'https://oapi.dingtalk.com/robot/send?access_token=' . $configs['dingtalk_token']);
     curl_setopt($ch, CURLOPT_TIMEOUT, 10); // 设置超时时间，单位为秒
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
     curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false); // 跳过证书检查
@@ -117,23 +118,24 @@ if (!empty($noNames)) {
     exit();
 }
 
-echo '数据抓取完毕，开始检查有效性' . PHP_EOL;
-$error      = fopen(LOCAL_DIR . '/error.txt', 'w+');
-$validInfos = [];
-foreach ($infos as $host => $channels) {
-    $check = false;
-    try {
-        //        $check = Configs::isM3U8Playable($channels[0]['url']);
-        $check = true;
-        foreach ($channels as $channel) {
-            $validInfos[$channel['name']][] = $channel;
+if ($configs['check_url']) {
+    echo '数据抓取完毕，开始检查有效性' . PHP_EOL;
+    $error      = fopen(LOCAL_DIR . '/error.txt', 'w+');
+    $validInfos = [];
+    foreach ($infos as $host => $channels) {
+        $check = false;
+        try {
+            $check = Configs::isM3U8Playable($channels[0]['url']);
+            foreach ($channels as $channel) {
+                $validInfos[$channel['name']][] = $channel;
+            }
+        } catch (Exception $e) {
+            foreach ($channels as $channel) {
+                fwrite($error, $channel['name'] . ',' . $channel['url'] . ',' . $e->getMessage() . PHP_EOL);
+            }
         }
-    } catch (Exception $e) {
-        foreach ($channels as $channel) {
-            fwrite($error, $channel['name'] . ',' . $channel['url'] . ',' . $e->getMessage() . PHP_EOL);
-        }
+        echo $host . ' - ' . ($check ? '可用' : '不可用') . "\n";
     }
-    echo $host . ' - ' . ($check ? '可用' : '不可用') . "\n";
 }
 
 $all = [];
