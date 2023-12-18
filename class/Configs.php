@@ -14,7 +14,7 @@ class Configs
     public static function getContent($urlInfo)
     {
         $url     = $urlInfo['url'];
-        $proxy   = $urlInfo['proxy'] ?? false;
+        $proxy   = $urlInfo['proxy'] ?? [];
         $headers = $urlInfo['headers'] ?? ['User-Agent: VLC/3.0.20 LibVLC/3.0.20'];
         if (strpos($url, 'http') !== false) {
             $ch = curl_init();
@@ -24,9 +24,9 @@ class Configs
             curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false); // 跳过证书检查
             curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false); // 跳过证书检查
             curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
-            if ($proxy && !empty(PROXY_HOST) && !empty(PROXY_PORT)) {
-                curl_setopt($ch, CURLOPT_PROXY, PROXY_HOST);
-                curl_setopt($ch, CURLOPT_PROXYPORT, PROXY_PORT);
+            if (!empty($proxy['host']) && !empty($proxy['port'])) {
+                curl_setopt($ch, CURLOPT_PROXY, $proxy['host']);
+                curl_setopt($ch, CURLOPT_PROXYPORT, $proxy['port']);
             }
             $content = curl_exec($ch);
             curl_close($ch);

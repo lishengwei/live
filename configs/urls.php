@@ -1,9 +1,9 @@
 <?php
 return [
-        [
-            'url'   => 'zijian.txt',
-            'hosts' => [],
-        ],
+    [
+        'url'   => 'zijian.txt',
+        'hosts' => [],
+    ],
     [
         'url'     => 'https://tvbox.cainisi.cf/TV/',
         'host'    => [],
@@ -20,11 +20,14 @@ return [
     [
         'url'   => 'https://raw.githubusercontent.com/sumingyd/Telecom-Shandong-IPTV-List/main/Unicom-Shandong-Dongying.m3u',
         'hosts' => [],
-        'proxy' => true
+        'proxy' => [
+            'host' => '127.0.0.1',
+            'port' => '7890'
+        ]
     ],
     [
         'url'   => 'https://www.hmg.pw:9999/tv.txt',
         'hosts' => [],
-        'proxy' => false
+        'proxy' => [],
     ]
 ];

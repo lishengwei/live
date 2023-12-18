@@ -6,7 +6,6 @@ $blockHosts    = [];
 $standardNames = [];
 $configs       = [];
 include_once 'config.php';
-include_once LOCAL_DIR . '/Configs.php';
 
 $sort            = [];
 $uniqueNames     = [];

@@ -1,7 +1,7 @@
 <?php
 
 error_reporting(0);
-$id      = isset($_GET['id']) ? $_GET['id'] : 'cctv1';
+$id      = $_GET['id'] ?? 'cctv1';
 $n       = [
     //央视
     'cctv1'     => 'CCTV1SD_1200', //CCTV1综合
