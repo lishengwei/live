@@ -13,7 +13,6 @@ foreach ($array as $item) {
     if ($url == '#genre#') {
         continue;
     }
-    echo '转换：' . $name . PHP_EOL;
     fputs($hander, '#EXTM3U' . PHP_EOL);
     fputs($hander, '#EXTINF:-1,' . $name . PHP_EOL);
     fputs($hander, $url . PHP_EOL);

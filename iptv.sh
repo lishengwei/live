@@ -1,5 +1,6 @@
 #!/bin/bash
-CRTDIR=$(pwd)
+CRTDIR=$(cd "$(dirname "$0")";pwd)
+
 php $CRTDIR/collect_iptv_to_txt.php
 php $CRTDIR/convert2m3u8.php
 cd $CRTDIR
