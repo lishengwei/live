@@ -29,5 +29,10 @@ return [
         'url'   => 'https://www.hmg.pw:9999/tv.txt',
         'hosts' => [],
         'proxy' => [],
-    ]
+    ],
+    [
+        'url'   => 'https://gitee.com/xxy002/zhiboyuan/raw/master/zby.txt',
+        'hosts' => [],
+        'proxy' => [],
+    ],
 ];
