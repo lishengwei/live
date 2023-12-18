@@ -37,125 +37,73 @@ CCTV-17,http://audiovisual.vsd.gehua.net.cn:80/live/CCTV17HD_1200.m3u8,HTTP请�
 宁夏卫视,http://audiovisual.vsd.gehua.net.cn:80/live/NingXia_800.m3u8,HTTP请求失败，状态码：403
 新疆卫视,http://audiovisual.vsd.gehua.net.cn:80/live/XinJiang_800.m3u8,HTTP请求失败，状态码：403
 贵州卫视,hhttp://audiovisual.vsd.gehua.net.cn:80/live/ipcdn/GuiZhouHD/ipcdn,HTTP请求失败，状态码：403
-厦门卫视,http://222.134.240.136:9901/tsfile/live/0129_1.m3u8?url=tvzb.com,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-西藏卫视,http://222.134.240.136:9901/tsfile/live/0111_1.m3u8?url=tvzb.com,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-CCTV-1,http://222.134.240.136:9901/tsfile/live/0001_1.m3u8?url=tvzb.com,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-CCTV-2,http://222.134.240.136:9901/tsfile/live/0002_1.m3u8?url=tvzb.com,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-CCTV-3,http://222.134.240.136:9901/tsfile/live/0003_1.m3u8?url=tvzb.com,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-CCTV-4,http://222.134.240.136:9901/tsfile/live/0004_1.m3u8?url=tvzb.com,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-CCTV-5,http://222.134.240.136:9901/tsfile/live/0005_1.m3u8?url=tvzb.com,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-CCTV-6,http://222.134.240.136:9901/tsfile/live/0006_1.m3u8?url=tvzb.com,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-CCTV-7,http://222.134.240.136:9901/tsfile/live/0007_1.m3u8?url=tvzb.com,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-CCTV-8,http://222.134.240.136:9901/tsfile/live/0008_1.m3u8?url=tvzb.com,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-CCTV-9,http://222.134.240.136:9901/tsfile/live/0009_1.m3u8?url=tvzb.com,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-CCTV-10,http://222.134.240.136:9901/tsfile/live/0010_1.m3u8?url=tvzb.com,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-CCTV-11,http://222.134.240.136:9901/tsfile/live/0011_1.m3u8?url=tvzb.com,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-CCTV-12,http://222.134.240.136:9901/tsfile/live/0012_1.m3u8?url=tvzb.com,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-CCTV-13,http://222.134.240.136:9901/tsfile/live/0013_1.m3u8?url=tvzb.com,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-CCTV-14,http://222.134.240.136:9901/tsfile/live/0014_1.m3u8?url=tvzb.com,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-CCTV-15,http://222.134.240.136:9901/tsfile/live/0015_1.m3u8?url=tvzb.com,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-CCTV-5+,http://222.134.240.136:9901/tsfile/live/0016_1.m3u8?url=tvzb.com,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-山东卫视,http://222.134.240.136:9901/tsfile/live/0131_1.m3u8?url=tvzb.com,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-辽宁卫视,http://222.134.240.136:9901/tsfile/live/0121_1.m3u8?url=tvzb.com,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-深圳卫视,http://222.134.240.136:9901/tsfile/live/0126_2.m3u8?url=tvzb.com,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-湖北卫视,http://222.134.240.136:9901/tsfile/live/0132_1.m3u8?url=tvzb.com,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-吉林卫视,http://222.134.240.136:9901/tsfile/live/0116_1.m3u8?url=tvzb.com,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-江西卫视,http://222.134.240.136:9901/tsfile/live/0138_1.m3u8?url=tvzb.com,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-陕西卫视,http://222.134.240.136:9901/tsfile/live/0136_1.m3u8?url=tvzb.com,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-四川卫视,http://222.134.240.136:9901/tsfile/live/0123_1.m3u8?url=tvzb.com,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-贵州卫视,http://222.134.240.136:9901/tsfile/live/0120_1.m3u8?url=tvzb.com,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-宁夏卫视,http://222.134.240.136:9901/tsfile/live/0112_1.m3u8?url=tvzb.com,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-东南卫视,http://222.134.240.136:9901/tsfile/live/0137_1.m3u8?url=tvzb.com,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-山西卫视,http://222.134.240.136:9901/tsfile/live/0118_1.m3u8?url=tvzb.com,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-北京卫视,http://222.134.240.136:9901/tsfile/live/0122_1.m3u8?url=tvzb.com,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-广东卫视,http://222.134.240.136:9901/tsfile/live/0125_1.m3u8?url=tvzb.com,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-重庆卫视,http://222.134.240.136:9901/tsfile/live/0142_1.m3u8?url=tvzb.com,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-天津卫视,http://222.134.240.136:9901/tsfile/live/0135_1.m3u8?url=tvzb.com,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-河北卫视,http://222.134.240.136:9901/tsfile/live/0117_1.m3u8?url=tvzb.com,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-青海卫视,http://222.134.240.136:9901/tsfile/live/0140_1.m3u8?url=tvzb.com,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-内蒙古卫视,http://222.134.240.136:9901/tsfile/live/0109_1.m3u8?url=tvzb.com,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-新疆卫视,http://222.134.240.136:9901/tsfile/live/0110_1.m3u8?url=tvzb.com,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-湖南卫视,http://222.134.240.136:9901/tsfile/live/0128_1.m3u8?url=tvzb.com,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-江苏卫视,http://222.134.240.136:9901/tsfile/live/0127_1.m3u8?url=tvzb.com,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-浙江卫视,http://222.134.240.136:9901/tsfile/live/0124_1.m3u8?url=tvzb.com,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-安徽卫视,http://222.134.240.136:9901/tsfile/live/0130_1.m3u8?url=tvzb.com,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-东方卫视,http://222.134.240.136:9901/tsfile/live/0107_1.m3u8?url=tvzb.com,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-CCTV-17,http://222.134.240.136:9901/tsfile/live/1030_1.m3u8?url=tvzb.com,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-山东教育卫视,http://222.134.240.136:9901/tsfile/live/1043_1.m3u8?url=tvzb.com,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-海南卫视,http://222.134.240.136:9901/tsfile/live/0114_1.m3u8?url=tvzb.com,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-CHC家庭影院,http://222.134.240.136:9901/tsfile/live/1031_1.m3u8?url=tvzb.com,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-CHC高清电影,http://222.134.240.136:9901/tsfile/live/1075_1.m3u8?url=tvzb.com,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-CHC动作电影,http://222.134.240.136:9901/tsfile/live/1076_1.m3u8?url=tvzb.com,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-青海卫视,http://stream.qhbtv.com/qhws/sd/live.m3u8,cURL Error: Operation timed out after 5005 milliseconds with 0 bytes received
-青海卫视,http://stream.qhbtv.com/qhws/playlist.m3u8?fbl=,cURL Error: Operation timed out after 5005 milliseconds with 0 bytes received
-青海卫视,http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=0d2f91cb1701350757,cURL Error: Operation timed out after 5005 milliseconds with 0 bytes received
-CCTV-1,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226231/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-CCTV-2,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226195/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-CCTV-3,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226397/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-CCTV-4,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226191/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-CCTV-5,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226395/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-CCTV-5+,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226221/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-CCTV-6,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226393/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-CCTV-7,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226192/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-CCTV-8,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226391/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-CCTV-9,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226197/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-CCTV-10,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226189/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-CCTV-11,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226240/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-CCTV-12,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226190/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-CCTV-13,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226233/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-CCTV-14,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226193/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-CCTV-15,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225785/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-CCTV-16,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226921/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-CCTV-17,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226198/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-CHC高清电影,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226463/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-CHC家庭影院,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226462/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-CHC动作电影,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226465/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-北京卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225796/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-北京卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226222/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-湖南卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225799/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-湖南卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226211/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-江苏卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225800/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-江苏卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226200/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-浙江卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225798/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-浙江卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226199/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-东方卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226261/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-东方卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226217/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-东方卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225797/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-安徽卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226196/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-安徽卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226203/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-辽宁卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226201/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-辽宁卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226210/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-深圳卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225801/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-深圳卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226205/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-广东卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225803/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-广东卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226216/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-天津卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226204/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-湖北卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226194/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-湖北卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226206/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-山东卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226209/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-重庆卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226202/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-四川卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225768/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-山西卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225763/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-东南卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225766/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-海南卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225769/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-厦门卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226219/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-河南卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225767/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-河北卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225750/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-吉林卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225792/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-广西卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225770/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-江西卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225764/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-云南卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225751/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-贵州卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225793/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-宁夏卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225748/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-甘肃卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225754/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-西藏卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226212/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-新疆卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225747/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-内蒙古卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225786/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-陕西卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225821/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-山东教育卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226238/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-CHC动作电影,http://113.62.253.22/live.aishang.ctlcdn.com/00000110240324_1/playlist.m3u8?CONTENTID=00000110240324_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-CHC高清电影,http://113.62.253.22/live.aishang.ctlcdn.com/00000110240325_1/playlist.m3u8?CONTENTID=00000110240325_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-CHC家庭影院,http://113.62.253.22/live.aishang.ctlcdn.com/00000110240323_1/encoder/0/playlist.m3u8?CONTENTID=00000110240323_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
+CCTV-1,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226231/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CCTV-2,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226195/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CCTV-3,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226397/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CCTV-4,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226191/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CCTV-5,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226395/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CCTV-5+,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226221/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CCTV-6,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226393/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CCTV-7,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226192/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CCTV-8,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226391/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CCTV-9,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226197/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CCTV-10,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226189/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CCTV-11,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226240/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CCTV-12,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226190/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CCTV-13,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226233/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CCTV-14,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226193/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CCTV-15,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225785/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CCTV-16,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226921/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CCTV-17,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226198/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CHC高清电影,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226463/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CHC家庭影院,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226462/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CHC动作电影,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226465/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+北京卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225796/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+北京卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226222/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+湖南卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225799/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+湖南卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226211/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+江苏卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225800/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+江苏卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226200/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+浙江卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225798/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+浙江卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226199/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+东方卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226261/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+东方卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226217/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+东方卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225797/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+安徽卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226196/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+安徽卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226203/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+辽宁卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226201/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+辽宁卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226210/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+深圳卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225801/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+深圳卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226205/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+广东卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225803/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+广东卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226216/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+天津卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226204/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+湖北卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226194/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+湖北卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226206/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+山东卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226209/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+重庆卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226202/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+四川卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225768/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+山西卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225763/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+东南卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225766/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+海南卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225769/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+厦门卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226219/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+河南卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225767/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+河北卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225750/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+吉林卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225792/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+广西卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225770/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+江西卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225764/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+云南卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225751/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+贵州卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225793/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+宁夏卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225748/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+甘肃卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225754/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+西藏卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226212/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+新疆卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225747/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+内蒙古卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225786/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+陕西卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225821/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+山东教育卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226238/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CHC动作电影,http://113.62.253.22/live.aishang.ctlcdn.com/00000110240324_1/playlist.m3u8?CONTENTID=00000110240324_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5005 milliseconds with 0 bytes received
+CHC高清电影,http://113.62.253.22/live.aishang.ctlcdn.com/00000110240325_1/playlist.m3u8?CONTENTID=00000110240325_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5005 milliseconds with 0 bytes received
+CHC家庭影院,http://113.62.253.22/live.aishang.ctlcdn.com/00000110240323_1/encoder/0/playlist.m3u8?CONTENTID=00000110240323_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5005 milliseconds with 0 bytes received
 CHC动作电影,http://bytedance.live.cqccn.com/__cl/cg:live/__c/chcdzdyHD/__op/default/__f//index.m3u8,HTTP请求失败，状态码：502
 CHC高清电影,http://bytedance.live.cqccn.com/__cl/cg:live/__c/chcgqdyHD/__op/default/__f//index.m3u8,HTTP请求失败，状态码：502
 CHC家庭影院,http://bytedance.live.cqccn.com/__cl/cg:live/__c/chcjtyyHD/__op/default/__f//index.m3u8,HTTP请求失败，状态码：502
@@ -163,12 +111,30 @@ CCTV风云足球,http://bytedance.live.cqccn.com/__cl/cg:live/__c/fyzqHD/__op/de
 CCTV第一剧场,http://bytedance.live.cqccn.com/__cl/cg:live/__c/diyijuchangHD/__op/default/__f//index.m3u8,HTTP请求失败，状态码：502
 CCTV风云足球,http://118.24.227.124/tv.live.cbnbn.cn/__cl/cg:live/__c/fyzqHD/__op/default/__f//index.m3u8,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
 CCTV第一剧场,http://118.24.227.124/tv.live.cbnbn.cn/__cl/cg:live/__c/diyijuchangHD/__op/default/__f//index.m3u8,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
-CCTV-5,http://39.134.24.161/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226395/index.m3u8,HTTP请求失败，状态码：502
-北京卫视,http://39.134.24.161/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225796/index.m3u8?,HTTP请求失败，状态码：502
-山西卫视,http://39.134.24.161/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225763/index.m3u8?,HTTP请求失败，状态码：502
-海南卫视,http://39.134.24.161/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225769/index.m3u8?,HTTP请求失败，状态码：502
-西藏卫视,http://39.134.24.161/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226212/index.m3u8?,HTTP请求失败，状态码：502
-CCTV-5,http://39.134.24.161/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226395/index.m3u8?,HTTP请求失败，状态码：502
+CCTV-1,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225804/index.m3u8,HTTP请求失败，状态码：502
+CCTV-2,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226195/index.m3u8,HTTP请求失败，状态码：502
+CCTV-2,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226224/index.m3u8,HTTP请求失败，状态码：502
+CCTV-4,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226191/index.m3u8,HTTP请求失败，状态码：502
+CCTV-5+,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225761/index.m3u8,HTTP请求失败，状态码：502
+CCTV-6,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226393/index.m3u8,HTTP请求失败，状态码：502
+CCTV-8,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226012/index.m3u8,HTTP请求失败，状态码：502
+CCTV-9,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226197/index.m3u8,HTTP请求失败，状态码：502
+CCTV-10,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226189/index.m3u8,HTTP请求失败，状态码：502
+CCTV-13,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226233/index.m3u8,HTTP请求失败，状态码：502
+CCTV-15,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225785/index.m3u8,HTTP请求失败，状态码：502
+CCTV-16,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226921/index.m3u8,HTTP请求失败，状态码：502
+北京卫视,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225796/index.m3u8,HTTP请求失败，状态码：502
+CCTV-5,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226395/index.m3u8?,HTTP请求失败，状态码：502
+天津卫视,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225765/index.m3u8,HTTP请求失败，状态码：502
+深圳卫视,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225752/index.m3u8,HTTP请求失败，状态码：502
+湖北卫视,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225760/index.m3u8,HTTP请求失败，状态码：502
+重庆卫视,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225791/index.m3u8,HTTP请求失败，状态码：502
+山西卫视,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225763/index.m3u8,HTTP请求失败，状态码：502
+山东卫视,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226012/index.m3u8,HTTP请求失败，状态码：502
+贵州卫视,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225793/index.m3u8,HTTP请求失败，状态码：502
+海南卫视,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225769/index.m3u8,HTTP请求失败，状态码：502
+西藏卫视,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226212/index.m3u8,HTTP请求失败，状态码：502
+CCTV-16,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226921/1.m3u8,HTTP请求失败，状态码：502
 CCTV-1,http://hms2944nc1972666638.live.aikan.miguvideo.com/wh7f454c46tw1580954862_989339440/wd_r2/cctv/cctv1hd/2500/01.m3u8?msisdn=guest&Channel_ID=0119_04102000-99000_400300000040002&client_ip=139.198.127.250&timestamp=20230816073730&ContentId=265183188&timezone=UTC&mtv_session=70e0f8e2241f03fbb284fe07471c1406&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=a8389d6ec822d0e298d3b92aa95fa266&fbl=,HTTP请求失败，状态码：403
 CCTV-4,http://hms2944nc1972666638.live.aikan.miguvideo.com/wh7f454c46tw1582083769_-1437579634/wd_r2/cctv/cctv4hd/3000/01.m3u8?msisdn=guest&Channel_ID=0119_04102000-99000_400300000040002&client_ip=139.198.127.250&timestamp=20230816073732&ContentId=265667639&timezone=UTC&mtv_session=bd66c8df11d2f77bee645f53f4ed7362&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=c2b1baee99eab7588b8ea53f584c3bb1&fbl=,HTTP请求失败，状态码：403
 CCTV-6,http://hms2944nc1972666638.live.aikan.miguvideo.com/wh7f454c46tw1584168866_889700348/wd_r2/ocn/cctv6hd/3000/01.m3u8?msisdn=guest&Channel_ID=0119_04102000-99000_400300000040002&client_ip=139.198.127.250&timestamp=20230816073734&ContentId=265667482&timezone=UTC&mtv_session=f70082b1ade8cb422547681dfcdad578&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=3197a71757b802dc65f32626eb2ec8dd&fbl=,HTTP请求失败，状态码：403
@@ -339,50 +305,50 @@ CHC家庭影院,http://111.67.202.166/php/sanxixian_PLTV.php?id=3221226462&fbl=,
 CHC动作电影,http://111.67.202.166/php/yinhe.php?id=ch00000090990000002055&fbl=8m,HTTP请求失败，状态码：404
 CHC高清电影,http://111.67.202.166/php/yinhe.php?id=ch00000090990000002065&fbl=8m,HTTP请求失败，状态码：404
 CHC家庭影院,http://111.67.202.166/php/yinhe.php?id=ch00000090990000002085&fbl=8m,HTTP请求失败，状态码：404
-CCTV-1,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225726/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
-CCTV-2,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225706/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
-CCTV-3,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226008/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
-CCTV-4,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225779/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
-CCTV-5,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226024/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
-CCTV-6,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226011/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
-CCTV-7,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225745/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
-CCTV-8,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226005/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
-CCTV-9,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226031/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
-CCTV-10,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225685/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
-CCTV-11,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225746/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
-CCTV-12,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225747/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
-CCTV-13,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225748/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
-CCTV-14,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225727/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
-CCTV-15,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225749/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
-CCTV-16,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226283/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
-CCTV-4,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226269/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
-CCTV-4,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226266/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
-CCTV-5+,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226128/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
-安徽卫视,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226072/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
-北京卫视,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225754/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
-东方卫视,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225752/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
-东南卫视,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225739/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
-甘肃卫视,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225755/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
-广东卫视,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225720/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
-广西卫视,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225711/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
-贵州卫视,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225776/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
-海南卫视,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225709/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
-河北卫视,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225713/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
-湖南卫视,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225707/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
-吉林卫视,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225753/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
-江苏卫视,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225751/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
-内蒙古卫视,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225718/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
-宁夏卫视,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225719/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
-青海卫视,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226301/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
-厦门卫视,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226246/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
-山东卫视,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225728/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
-陕西卫视,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225688/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
-深圳卫视,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225712/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
-四川卫视,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225757/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
-西藏卫视,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225668/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
-新疆卫视,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225759/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
-云南卫视,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225687/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
-浙江卫视,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225750/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
+CCTV-1,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225726/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CCTV-2,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225706/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CCTV-3,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226008/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CCTV-4,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225779/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CCTV-5,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226024/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CCTV-6,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226011/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CCTV-7,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225745/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CCTV-8,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226005/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CCTV-9,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226031/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CCTV-10,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225685/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CCTV-11,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225746/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CCTV-12,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225747/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CCTV-13,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225748/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CCTV-14,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225727/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CCTV-15,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225749/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CCTV-16,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226283/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CCTV-4,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226269/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CCTV-4,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226266/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CCTV-5+,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226128/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+安徽卫视,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226072/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+北京卫视,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225754/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+东方卫视,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225752/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+东南卫视,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225739/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+甘肃卫视,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225755/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+广东卫视,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225720/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+广西卫视,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225711/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+贵州卫视,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225776/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+海南卫视,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225709/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+河北卫视,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225713/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+湖南卫视,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225707/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+吉林卫视,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225753/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+江苏卫视,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225751/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+内蒙古卫视,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225718/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+宁夏卫视,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225719/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+青海卫视,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226301/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+厦门卫视,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226246/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+山东卫视,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225728/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+陕西卫视,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225688/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+深圳卫视,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225712/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+四川卫视,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225757/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+西藏卫视,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225668/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+新疆卫视,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225759/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+云南卫视,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225687/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+浙江卫视,http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225750/01.m3u8?fmt=ts2hls&fbl=,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
 CCTV-1,http://111.40.196.33:443/PLTV/88888888/224/3221225548/index.m3u8?fbl=,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
 CCTV-2,http://111.40.196.33:443/PLTV/88888888/224/3221225488/index.m3u8?fbl=,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
 CCTV-3,http://111.40.196.33:443/PLTV/88888888/224/3221225588/index.m3u8?fbl=,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
@@ -665,38 +631,38 @@ CCTV-17,http://hms2924nc1972666636.live.aikan.miguvideo.com/wh7f454c46tw15870654
 山东教育卫视,http://hz752.live:63/vvs/migu.php?id=sdjy,HTTP请求失败，状态码：502
 山东教育卫视,http://hz752.live:63/vvs/bfgd.php?id=112,HTTP请求失败，状态码：502
 CCTV-14,http://hz752.live:63/vvs/astv.php?id=cctv14hd,HTTP请求失败，状态码：502
-湖南卫视,http://39.134.136.151:6610/000000001000/1000000001000009115/index.m3u8?channel-id=ystenlive&Contentid=1000000001000009115&livemode=1&stbId=00,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-浙江卫视,http://39.134.136.151:6610/000000001000/1000000001000009806/index.m3u8?channel-id=ystenlive&Contentid=1000000001000009806&livemode=1&stbId=00,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-江苏卫视,http://39.134.136.151:6610/000000001000/1000000001000001828/index.m3u8?channel-id=ystenlive&Contentid=1000000001000001828&livemode=1&stbId=00,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-广东卫视,http://39.134.136.151:6610/000000001000/1000000001000014176/index.m3u8?channel-id=ystenlive&Contentid=1000000001000014176&livemode=1&stbId=00,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-深圳卫视,http://39.134.136.151:6610/000000001000/1000000001000009227/index.m3u8?channel-id=ystenlive&Contentid=1000000001000009227&livemode=1&stbId=00,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-北京卫视,http://39.134.136.151:6610/000000001000/1000000001000017156/index.m3u8?channel-id=ystenlive&Contentid=1000000001000017156&livemode=1&stbId=00,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-天津卫视,http://39.134.136.151:6610/000000001000/1000000001000000831/index.m3u8?channel-id=ystenlive&Contentid=1000000001000000831&livemode=1&stbId=00,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-东方卫视,http://39.134.136.151:6610/000000001000/1000000001000005866/index.m3u8?channel-id=ystenlive&Contentid=1000000001000005866&livemode=1&stbId=00,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-山东卫视,http://39.134.136.151:6610/000000001000/1000000001000012807/index.m3u8?channel-id=ystenlive&Contentid=1000000001000012807&livemode=1&stbId=00,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-湖北卫视,http://39.134.136.151:6610/000000001000/1000000001000010355/index.m3u8?channel-id=ystenlive&Contentid=1000000001000010355&livemode=1&stbId=00,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-四川卫视,http://39.134.136.151:6610/000000001000/1000000002000016825/index.m3u8?channel-id=ystenlive&Contentid=1000000002000016825&livemode=1&stbId=00,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-重庆卫视,http://39.134.136.151:6610/000000001000/1000000002000018937/index.m3u8?channel-id=ystenlive&Contentid=1000000002000018937&livemode=1&stbId=00,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-安徽卫视,http://39.134.136.151:6610/000000001000/1000000001000020780/index.m3u8?channel-id=ystenlive&Contentid=1000000001000020780&livemode=1&stbId=00,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-河北卫视,http://39.134.136.151:6610/000000001000/1000000002000017118/index.m3u8?channel-id=ystenlive&Contentid=1000000002000017118&livemode=1&stbId=00,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-河南卫视,http://39.134.136.151:6610/000000001000/7304224304099543804/index.m3u8?channel-id=ystenlive&Contentid=7304224304099543804&livemode=1&stbId=00,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-东南卫视,http://39.134.136.151:6610/000000001000/1000000002000009263/index.m3u8?channel-id=ystenlive&Contentid=1000000002000009263&livemode=1&stbId=00,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-辽宁卫视,http://39.134.136.151:6610/000000001000/1000000002000024033/index.m3u8?channel-id=ystenlive&Contentid=1000000002000024033&livemode=1&stbId=00,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-江西卫视,http://39.134.136.151:6610/000000001000/1000000001000013731/index.m3u8?channel-id=ystenlive&Contentid=1000000001000013731&livemode=1&stbId=00,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-广西卫视,http://39.134.136.151:6610/000000001000/1000000002000019837/index.m3u8?channel-id=ystenlive&Contentid=1000000002000019837&livemode=1&stbId=00,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-山西卫视,http://39.134.136.151:6610/000000001000/1000000002000021220/index.m3u8?channel-id=ystenlive&Contentid=1000000002000021220&livemode=1&stbId=00,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-陕西卫视,http://39.134.136.151:6610/000000001000/1000000002000007495/index.m3u8?channel-id=ystenlive&Contentid=1000000002000007495&livemode=1&stbId=00,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-海南卫视,http://39.134.136.151:6610/000000001000/7899627377857656087/index.m3u8?channel-id=ystenlive&Contentid=7899627377857656087&livemode=1&stbId=00,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-云南卫视,http://39.134.136.151:6610/000000001000/1000000002000024694/index.m3u8?channel-id=ystenlive&Contentid=1000000002000024694&livemode=1&stbId=00,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-吉林卫视,http://39.134.136.151:6610/000000001000/6042486520432105075/index.m3u8?channel-id=ystenlive&Contentid=6042486520432105075&livemode=1&stbId=00,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-贵州卫视,http://39.134.136.151:6610/000000001000/1000000002000003169/index.m3u8?channel-id=ystenlive&Contentid=1000000002000003169&livemode=1&stbId=00,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-青海卫视,http://39.134.136.151:6610/000000001000/1000000002000013359/index.m3u8?channel-id=ystenlive&Contentid=1000000002000013359&livemode=1&stbId=00,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-内蒙古卫视,http://39.134.136.151:6610/000000001000/5559214655508729688/index.m3u8?channel-id=ystenlive&Contentid=5559214655508729688&livemode=1&stbId=00,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-宁夏卫视,http://39.134.136.151:6610/000000001000/7527747602951312973/index.m3u8?channel-id=ystenlive&Contentid=7527747602951312973&livemode=1&stbId=00,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-甘肃卫视,http://39.134.136.151:6610/000000001000/1000000002000017827/index.m3u8?channel-id=ystenlive&Contentid=1000000002000017827&livemode=1&stbId=00,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-新疆卫视,http://39.134.136.151:6610/000000001000/5802765535081445534/index.m3u8?channel-id=ystenlive&Contentid=5802765535081445534&livemode=1&stbId=00,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-西藏卫视,http://39.134.136.151:6610/000000001000/6603041244077933770/index.m3u8?channel-id=ystenlive&Contentid=6603041244077933770&livemode=1&stbId=00,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-山东教育卫视,http://39.134.136.151:6610/000000001000/1000000002000004097/index.m3u8?channel-id=ystenlive&Contentid=1000000002000004097&livemode=1&stbId=00,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+湖南卫视,http://39.134.136.151:6610/000000001000/1000000001000009115/index.m3u8?channel-id=ystenlive&Contentid=1000000001000009115&livemode=1&stbId=00,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
+浙江卫视,http://39.134.136.151:6610/000000001000/1000000001000009806/index.m3u8?channel-id=ystenlive&Contentid=1000000001000009806&livemode=1&stbId=00,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
+江苏卫视,http://39.134.136.151:6610/000000001000/1000000001000001828/index.m3u8?channel-id=ystenlive&Contentid=1000000001000001828&livemode=1&stbId=00,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
+广东卫视,http://39.134.136.151:6610/000000001000/1000000001000014176/index.m3u8?channel-id=ystenlive&Contentid=1000000001000014176&livemode=1&stbId=00,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
+深圳卫视,http://39.134.136.151:6610/000000001000/1000000001000009227/index.m3u8?channel-id=ystenlive&Contentid=1000000001000009227&livemode=1&stbId=00,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
+北京卫视,http://39.134.136.151:6610/000000001000/1000000001000017156/index.m3u8?channel-id=ystenlive&Contentid=1000000001000017156&livemode=1&stbId=00,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
+天津卫视,http://39.134.136.151:6610/000000001000/1000000001000000831/index.m3u8?channel-id=ystenlive&Contentid=1000000001000000831&livemode=1&stbId=00,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
+东方卫视,http://39.134.136.151:6610/000000001000/1000000001000005866/index.m3u8?channel-id=ystenlive&Contentid=1000000001000005866&livemode=1&stbId=00,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
+山东卫视,http://39.134.136.151:6610/000000001000/1000000001000012807/index.m3u8?channel-id=ystenlive&Contentid=1000000001000012807&livemode=1&stbId=00,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
+湖北卫视,http://39.134.136.151:6610/000000001000/1000000001000010355/index.m3u8?channel-id=ystenlive&Contentid=1000000001000010355&livemode=1&stbId=00,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
+四川卫视,http://39.134.136.151:6610/000000001000/1000000002000016825/index.m3u8?channel-id=ystenlive&Contentid=1000000002000016825&livemode=1&stbId=00,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
+重庆卫视,http://39.134.136.151:6610/000000001000/1000000002000018937/index.m3u8?channel-id=ystenlive&Contentid=1000000002000018937&livemode=1&stbId=00,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
+安徽卫视,http://39.134.136.151:6610/000000001000/1000000001000020780/index.m3u8?channel-id=ystenlive&Contentid=1000000001000020780&livemode=1&stbId=00,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
+河北卫视,http://39.134.136.151:6610/000000001000/1000000002000017118/index.m3u8?channel-id=ystenlive&Contentid=1000000002000017118&livemode=1&stbId=00,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
+河南卫视,http://39.134.136.151:6610/000000001000/7304224304099543804/index.m3u8?channel-id=ystenlive&Contentid=7304224304099543804&livemode=1&stbId=00,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
+东南卫视,http://39.134.136.151:6610/000000001000/1000000002000009263/index.m3u8?channel-id=ystenlive&Contentid=1000000002000009263&livemode=1&stbId=00,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
+辽宁卫视,http://39.134.136.151:6610/000000001000/1000000002000024033/index.m3u8?channel-id=ystenlive&Contentid=1000000002000024033&livemode=1&stbId=00,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
+江西卫视,http://39.134.136.151:6610/000000001000/1000000001000013731/index.m3u8?channel-id=ystenlive&Contentid=1000000001000013731&livemode=1&stbId=00,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
+广西卫视,http://39.134.136.151:6610/000000001000/1000000002000019837/index.m3u8?channel-id=ystenlive&Contentid=1000000002000019837&livemode=1&stbId=00,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
+山西卫视,http://39.134.136.151:6610/000000001000/1000000002000021220/index.m3u8?channel-id=ystenlive&Contentid=1000000002000021220&livemode=1&stbId=00,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
+陕西卫视,http://39.134.136.151:6610/000000001000/1000000002000007495/index.m3u8?channel-id=ystenlive&Contentid=1000000002000007495&livemode=1&stbId=00,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
+海南卫视,http://39.134.136.151:6610/000000001000/7899627377857656087/index.m3u8?channel-id=ystenlive&Contentid=7899627377857656087&livemode=1&stbId=00,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
+云南卫视,http://39.134.136.151:6610/000000001000/1000000002000024694/index.m3u8?channel-id=ystenlive&Contentid=1000000002000024694&livemode=1&stbId=00,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
+吉林卫视,http://39.134.136.151:6610/000000001000/6042486520432105075/index.m3u8?channel-id=ystenlive&Contentid=6042486520432105075&livemode=1&stbId=00,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
+贵州卫视,http://39.134.136.151:6610/000000001000/1000000002000003169/index.m3u8?channel-id=ystenlive&Contentid=1000000002000003169&livemode=1&stbId=00,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
+青海卫视,http://39.134.136.151:6610/000000001000/1000000002000013359/index.m3u8?channel-id=ystenlive&Contentid=1000000002000013359&livemode=1&stbId=00,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
+内蒙古卫视,http://39.134.136.151:6610/000000001000/5559214655508729688/index.m3u8?channel-id=ystenlive&Contentid=5559214655508729688&livemode=1&stbId=00,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
+宁夏卫视,http://39.134.136.151:6610/000000001000/7527747602951312973/index.m3u8?channel-id=ystenlive&Contentid=7527747602951312973&livemode=1&stbId=00,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
+甘肃卫视,http://39.134.136.151:6610/000000001000/1000000002000017827/index.m3u8?channel-id=ystenlive&Contentid=1000000002000017827&livemode=1&stbId=00,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
+新疆卫视,http://39.134.136.151:6610/000000001000/5802765535081445534/index.m3u8?channel-id=ystenlive&Contentid=5802765535081445534&livemode=1&stbId=00,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
+西藏卫视,http://39.134.136.151:6610/000000001000/6603041244077933770/index.m3u8?channel-id=ystenlive&Contentid=6603041244077933770&livemode=1&stbId=00,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
+山东教育卫视,http://39.134.136.151:6610/000000001000/1000000002000004097/index.m3u8?channel-id=ystenlive&Contentid=1000000002000004097&livemode=1&stbId=00,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
 湖南卫视,http://58.205.220.58:8088/tlivectfree-cdn.ysp.cctv.cn/ysp/2000296203.m3u8,HTTP请求失败，状态码：502
 浙江卫视,http://58.205.220.58:8088/tlivectfree-cdn.ysp.cctv.cn/ysp/2000295503.m3u8,HTTP请求失败，状态码：502
 江苏卫视,http://58.205.220.58:8088/tlivectfree-cdn.ysp.cctv.cn/ysp/2000295603.m3u8,HTTP请求失败，状态码：502
@@ -750,80 +716,98 @@ CCTV-14,http://hz752.live:63/vvs/astv.php?id=cctv14hd,HTTP请求失败，状态�
 厦门卫视,http://59.49.41.39/live.aishang.ctlcdn.com/00000110240159_1/playlist.m3u8?CONTENTID=00000110240159_1,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
 山东教育卫视,http://59.49.41.39/live.aishang.ctlcdn.com/00000110240304_1/playlist.m3u8?CONTENTID=00000110240304_1,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
 CHC家庭影院,http://59.49.41.39/live.aishang.ctlcdn.com/00000110240334_1/playlist.m3u8?CONTENTID=00000110240334_1,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
-河北卫视,http://event.pull.hebtv.com/jishi/weishipindao.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-河北卫视,http://event.pull.hebtv.com/jishi/weishipindao.flv,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-河北卫视,http://event.pull.hebtv.com/jishi/weishipindao.m3u8?fbl=,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-云南卫视,http://tvlive.ynradio.com/live/yunnanweishi/chunks.m3u8,cURL Error: Operation timed out after 5005 milliseconds with 0 bytes received
-吉林卫视,http://stream4.jlntv.cn:80/jlwshd/playlist.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+河北卫视,http://event.pull.hebtv.com/jishi/weishipindao.m3u8,HTTP请求失败，状态码：404
+河北卫视,http://event.pull.hebtv.com/jishi/weishipindao.flv,HTTP请求失败，状态码：404
+河北卫视,http://event.pull.hebtv.com/jishi/weishipindao.m3u8?fbl=,HTTP请求失败，状态码：404
+吉林卫视,http://stream4.jlntv.cn:80/jlwshd/playlist.m3u8,cURL Error: Operation timed out after 5000 milliseconds with 0 bytes received
 新疆卫视,http://livehyw5.chinamcache.com/hyw/zb01.m3u8?txSecret=58347f72aece2c25c685b8dc4da74652&txTime=95A66658,HTTP请求失败，状态码：502
 安徽卫视,http://hlsbkmgsplive.miguvideo.com/migu/kailu/ahwshd265/55/20200407/01.m3u8?&HlsSubType=1&encrypt=1&fbl=,HTTP请求失败，状态码：403
-广东卫视,http://111.40.196.37:443/PLTV/88888888/224/3221225533/index.m3u8?fbl=,cURL Error: Operation timed out after 5000 milliseconds with 0 bytes received
-湖北卫视,http://111.40.196.37:443/PLTV/88888888/224/3221225546/index.m3u8?fbl=,cURL Error: Operation timed out after 5000 milliseconds with 0 bytes received
+广东卫视,http://111.40.196.37:443/PLTV/88888888/224/3221225533/index.m3u8?fbl=,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+湖北卫视,http://111.40.196.37:443/PLTV/88888888/224/3221225546/index.m3u8?fbl=,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
 辽宁卫视,http://hms2924nc1972666635.live.aikan.miguvideo.com/wh7f454c46tw1589644797_1577190639/wd_r2/ocn/liaoningwshd/3000/01.m3u8?msisdn=guest&Channel_ID=0119_04102000-99000_400300000040002&client_ip=139.198.127.250&timestamp=20230816073739&ContentId=265669068&timezone=UTC&mtv_session=4adbe497fcc87ddaaa343726a3a14c13&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=b336009b46cc80be11d75c763cb6fe70&fbl=,HTTP请求失败，状态码：403
 青海卫视,http://hms2924nc1972666635.live.aikan.miguvideo.com/wh7f454c46tw1590811433_1387778932/envivo_w/2018/SD/qinghai/1000/01.m3u8?msisdn=guest&Channel_ID=0119_04102000-99000_400300000040002&client_ip=139.198.127.250&timestamp=20230816073740&ContentId=531262027&timezone=UTC&mtv_session=449a36454b820ab73b61a8a33ccf5337&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=aad202f94476c188a79dcc8e1ec1d2b5&fbl=,HTTP请求失败，状态码：403
+CCTV-1,http://live.aishang.ctlcdn.com/00000110240127_1/playlist.m3u8?CONTENTID=00000110240127_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CCTV-2,http://live.aishang.ctlcdn.com/00000110240244_1/playlist.m3u8?CONTENTID=00000110240244_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CCTV-3,http://live.aishang.ctlcdn.com/00000110240245_1/playlist.m3u8?CONTENTID=00000110240245_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CCTV-4,http://live.aishang.ctlcdn.com/00000110240316_1/playlist.m3u8?CONTENTID=00000110240316_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CCTV-5,http://live.aishang.ctlcdn.com/00000110240246_1/playlist.m3u8?CONTENTID=00000110240246_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CCTV-5+,http://live.aishang.ctlcdn.com/00000110240128_1/playlist.m3u8?CONTENTID=00000110240128_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CCTV-6,http://live.aishang.ctlcdn.com/00000110240247_1/playlist.m3u8?CONTENTID=00000110240247_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CCTV-7,http://live.aishang.ctlcdn.com/00000110240248_1/playlist.m3u8?CONTENTID=00000110240248_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CCTV-8,http://live.aishang.ctlcdn.com/00000110240249_1/playlist.m3u8?CONTENTID=00000110240249_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CCTV-9,http://live.aishang.ctlcdn.com/00000110240250_1/playlist.m3u8?CONTENTID=00000110240250_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CCTV-10,http://live.aishang.ctlcdn.com/00000110240251_1/playlist.m3u8?CONTENTID=00000110240251_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CCTV-11,http://live.aishang.ctlcdn.com/00000110240328_1/playlist.m3u8?CONTENTID=00000110240328_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CCTV-12,http://live.aishang.ctlcdn.com/00000110240252_1/playlist.m3u8?CONTENTID=00000110240252_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CCTV-13,http://live.aishang.ctlcdn.com/00000110240502_1/playlist.m3u8?CONTENTID=00000110240502_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CCTV-14,http://live.aishang.ctlcdn.com/00000110240253_1/playlist.m3u8?CONTENTID=00000110240253_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CCTV-15,http://live.aishang.ctlcdn.com/00000110240329_1/playlist.m3u8?CONTENTID=00000110240329_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CCTV-16,http://live.aishang.ctlcdn.com/00000110240388_1/playlist.m3u8?CONTENTID=00000110240388_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CCTV-16,http://live.aishang.ctlcdn.com/00000110240389_1/playlist.m3u8?CONTENTID=00000110240389_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CCTV-17,http://live.aishang.ctlcdn.com/00000110240326_1/playlist.m3u8?CONTENTID=00000110240326_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+北京卫视,http://live.aishang.ctlcdn.com/00000110240129_1/playlist.m3u8?CONTENTID=00000110240129_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+东方卫视,http://live.aishang.ctlcdn.com/00000110240242_1/playlist.m3u8?CONTENTID=00000110240242_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+天津卫视,http://live.aishang.ctlcdn.com/00000110240136_1/playlist.m3u8?CONTENTID=00000110240136_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+重庆卫视,http://live.aishang.ctlcdn.com/00000110240397_1/playlist.m3u8?CONTENTID=00000110240397_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+吉林卫视,http://live.aishang.ctlcdn.com/00000110240399_1/playlist.m3u8?CONTENTID=00000110240399_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+辽宁卫视,http://live.aishang.ctlcdn.com/00000110240255_1/playlist.m3u8?CONTENTID=00000110240255_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+内蒙古卫视,http://live.aishang.ctlcdn.com/00000110240060_1/playlist.m3u8?CONTENTID=00000110240060_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+宁夏卫视,http://live.aishang.ctlcdn.com/00000110240061_1/playlist.m3u8?CONTENTID=00000110240061_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+甘肃卫视,http://live.aishang.ctlcdn.com/00000110240034_1/playlist.m3u8?CONTENTID=00000110240034_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+青海卫视,http://live.aishang.ctlcdn.com/00000110240063_1/playlist.m3u8?CONTENTID=00000110240063_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+陕西卫视,http://live.aishang.ctlcdn.com/00000110240066_1/playlist.m3u8?CONTENTID=00000110240066_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+河北卫视,http://live.aishang.ctlcdn.com/00000110240317_1/playlist.m3u8?CONTENTID=00000110240317_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+山西卫视,http://live.aishang.ctlcdn.com/00000110240065_1/playlist.m3u8?CONTENTID=00000110240065_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+山东卫视,http://live.aishang.ctlcdn.com/00000110240254_1/playlist.m3u8?CONTENTID=00000110240254_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+安徽卫视,http://live.aishang.ctlcdn.com/00000110240256_1/playlist.m3u8?CONTENTID=00000110240256_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+河南卫视,http://live.aishang.ctlcdn.com/00000110240041_1/playlist.m3u8?CONTENTID=00000110240041_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+湖北卫视,http://live.aishang.ctlcdn.com/00000110240135_1/playlist.m3u8?CONTENTID=00000110240135_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+湖南卫视,http://live.aishang.ctlcdn.com/00000110240130_1/playlist.m3u8?CONTENTID=00000110240130_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+江西卫视,http://live.aishang.ctlcdn.com/00000110240398_1/playlist.m3u8?CONTENTID=00000110240398_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+江苏卫视,http://live.aishang.ctlcdn.com/00000110240133_1/playlist.m3u8?CONTENTID=00000110240133_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+浙江卫视,http://live.aishang.ctlcdn.com/00000110240134_1/playlist.m3u8?CONTENTID=00000110240134_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+东南卫视,http://live.aishang.ctlcdn.com/00000110240588_1/playlist.m3u8?CONTENTID=00000110240588_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+厦门卫视,http://live.aishang.ctlcdn.com/00000110240159_1/playlist.m3u8?CONTENTID=00000110240159_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+广东卫视,http://live.aishang.ctlcdn.com/00000110240137_1/playlist.m3u8?CONTENTID=00000110240137_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+深圳卫视,http://live.aishang.ctlcdn.com/00000110240132_1/playlist.m3u8?CONTENTID=00000110240132_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+广西卫视,http://live.aishang.ctlcdn.com/00000110240037_1/playlist.m3u8?CONTENTID=00000110240037_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+云南卫视,http://live.aishang.ctlcdn.com/00000110240082_1/playlist.m3u8?CONTENTID=00000110240082_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+贵州卫视,http://live.aishang.ctlcdn.com/00000110240318_1/playlist.m3u8?CONTENTID=00000110240318_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+四川卫视,http://live.aishang.ctlcdn.com/00000110240071_1/playlist.m3u8?CONTENTID=00000110240071_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+新疆卫视,http://live.aishang.ctlcdn.com/00000110240079_1/playlist.m3u8?CONTENTID=00000110240079_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+西藏卫视,http://live.aishang.ctlcdn.com/00000110240076_1/playlist.m3u8?CONTENTID=00000110240076_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+海南卫视,http://live.aishang.ctlcdn.com/00000110240059_1/playlist.m3u8?CONTENTID=00000110240059_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+山东教育卫视,http://live.aishang.ctlcdn.com/00000110240304_1/playlist.m3u8?CONTENTID=00000110240304_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CHC家庭影院,http://live.aishang.ctlcdn.com/00000110240323_1/playlist.m3u8?CONTENTID=00000110240323_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CHC动作电影,http://live.aishang.ctlcdn.com/00000110240324_1/playlist.m3u8?CONTENTID=00000110240324_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CHC高清电影,http://live.aishang.ctlcdn.com/00000110240325_1/playlist.m3u8?CONTENTID=00000110240325_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+东南卫视,http://live.aishang.ctlcdn.com/00000110240588_1/encoder/0/playlist.m3u8?CONTENTID=00000110240588_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+北京卫视,http://live.aishang.ctlcdn.com/00000110240129_1/encoder/0/playlist.m3u8?CONTENTID=00000110240129_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
 CCTV-4,http://47.242.38.45:9999/twjd678-2.php?id=119,M3U8文件格式不正确
 CHC家庭影院,http://223.151.51.27:85/tsfile/live/1020_1.m3u8?key=txiptv&playlive=1&authid=0,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
 CHC动作电影,http://223.151.51.27:85/tsfile/live/1021_1.m3u8?key=txiptv&playlive=1&authid=0,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
 CHC高清电影,http://223.151.51.27:85/tsfile/live/1020_1.m3u8?key=txiptv&playlive=1&authid=0,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
-CHC家庭影院,http://59.49.41.41/live.aishang.ctlcdn.com/00000110240323_1/playlist.m3u8?CONTENTID=00000110240323_1,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-CHC动作电影,http://59.49.41.41/live.aishang.ctlcdn.com/00000110240324_1/playlist.m3u8?CONTENTID=00000110240324_1,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-CHC高清电影,http://59.49.41.41/live.aishang.ctlcdn.com/00000110240325_1/playlist.m3u8?CONTENTID=00000110240325_1,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-CHC高清电影,http://222.132.191.125:9901/tsfile/live/1010_1.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-CHC高清电影,http://115.150.63.77:9901/tsfile/live/1031_1.m3u8?fbl=,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-CHC动作电影,http://115.150.63.77:9901/tsfile/live/1047_1.m3u8?fbl=,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-CCTV-3,http://www.namewee.xyz/gudou.php?id=364&id=1603,HTTP请求失败，状态码：502
-CCTV-1,http://alivealone.litenews.cn/301/b597ff6aa9cb40aba57bb011b13865ad.flv,cURL Error: Operation timed out after 5000 milliseconds with 2356751 bytes received
-CCTV-1,http://v.ran-ran.top/zb/migu.php?id=cctv1,M3U8响应302且文件不存在
-CCTV-1,http://v.ran-ran.top/zb/migu.php?id=cctv1b,M3U8响应302且文件不存在
-CCTV-2,http://v.ran-ran.top/zb/migu.php?id=cctv2,M3U8响应302且文件不存在
-CCTV-3,http://v.ran-ran.top/zb/migu.php?id=cctv3,M3U8响应302且文件不存在
-CCTV-4,http://v.ran-ran.top/zb/migu.php?id=cctv4a,M3U8响应302且文件不存在
-CCTV-5,http://v.ran-ran.top/zb/migu.php?id=cctv5,M3U8响应302且文件不存在
-CCTV-5+,http://v.ran-ran.top/zb/migu.php?id=cctv5p,M3U8响应302且文件不存在
-CCTV-6,http://v.ran-ran.top/zb/migu.php?id=cctv6,M3U8响应302且文件不存在
-CCTV-8,http://v.ran-ran.top/zb/migu.php?id=cctv8,M3U8响应302且文件不存在
-CCTV-9,http://v.ran-ran.top/zb/migu.php?id=cctv9,M3U8响应302且文件不存在
-CCTV-10,http://v.ran-ran.top/zb/migu.php?id=cctv10,M3U8响应302且文件不存在
-CCTV-12,http://v.ran-ran.top/zb/migu.php?id=cctv12,M3U8响应302且文件不存在
-CCTV-13,http://v.ran-ran.top/zb/migu.php?id=cctv13,M3U8响应302且文件不存在
-CCTV-14,http://v.ran-ran.top/zb/migu.php?id=cctv14,M3U8响应302且文件不存在
-CCTV-15,http://v.ran-ran.top/zb/migu.php?id=cctv15,M3U8响应302且文件不存在
-CCTV-17,http://v.ran-ran.top/zb/migu.php?id=cctv17,M3U8响应302且文件不存在
-东方卫视,http://v.ran-ran.top/zb/migu.php?id=dfws2,M3U8响应302且文件不存在
-江苏卫视,http://v.ran-ran.top/zb/migu.php?id=jsws,M3U8响应302且文件不存在
-湖南卫视,http://v.ran-ran.top/zb/migu.php?id=hunws,M3U8响应302且文件不存在
-湖北卫视,http://v.ran-ran.top/zb/migu.php?id=hubws,M3U8响应302且文件不存在
-广东卫视,http://v.ran-ran.top/zb/migu.php?id=gdws,M3U8响应302且文件不存在
-辽宁卫视,http://v.ran-ran.top/zb/migu.php?id=lnws,M3U8响应302且文件不存在
-重庆卫视,http://v.ran-ran.top/zb/migu.php?id=cqws,M3U8响应302且文件不存在
-贵州卫视,https://v.ran-ran.top/zb/cqyx.php?id=guizhouHD,M3U8响应302且文件不存在
-山东卫视,http://v.ran-ran.top/zb/migu.php?id=sdws,M3U8响应302且文件不存在
-海南卫视,http://v.ran-ran.top/zb/migu.php?id=hinws,M3U8响应302且文件不存在
-吉林卫视,http://v.ran-ran.top/zb/migu.php?id=jlws,M3U8响应302且文件不存在
-内蒙古卫视,http://v.ran-ran.top/zb/migu.php?id=nmws,M3U8响应302且文件不存在
-青海卫视,http://v.ran-ran.top/zb/migu.php?id=qhws,M3U8响应302且文件不存在
-宁夏卫视,http://v.ran-ran.top/zb/migu.php?id=nxws,M3U8响应302且文件不存在
-甘肃卫视,http://v.ran-ran.top/zb/migu.php?id=gsws,M3U8响应302且文件不存在
-新疆卫视,http://v.ran-ran.top/zb/migu.php?id=xjws,M3U8响应302且文件不存在
-西藏卫视,http://v.ran-ran.top/zb/migu.php?id=xzws,M3U8响应302且文件不存在
-CCTV-2,http://218.15.229.90:9901/tsfile/live/0002_1.m3u8,cURL Error: Operation timed out after 5000 milliseconds with 0 bytes received
-CCTV-3,http://218.15.229.90:9901/tsfile/live/0003_1.m3u8,cURL Error: Operation timed out after 5000 milliseconds with 0 bytes received
-CCTV-4,http://218.15.229.90:9901/tsfile/live/0004_1.m3u8,cURL Error: Operation timed out after 5000 milliseconds with 0 bytes received
-CCTV-5,http://218.15.229.90:9901/tsfile/live/0005_1.m3u8,cURL Error: Operation timed out after 5000 milliseconds with 0 bytes received
-CCTV-6,http://218.15.229.90:9901/tsfile/live/0006_1.m3u8,cURL Error: Operation timed out after 5000 milliseconds with 0 bytes received
+CHC家庭影院,http://59.49.41.41/live.aishang.ctlcdn.com/00000110240323_1/playlist.m3u8?CONTENTID=00000110240323_1,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
+CHC动作电影,http://59.49.41.41/live.aishang.ctlcdn.com/00000110240324_1/playlist.m3u8?CONTENTID=00000110240324_1,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
+CHC高清电影,http://59.49.41.41/live.aishang.ctlcdn.com/00000110240325_1/playlist.m3u8?CONTENTID=00000110240325_1,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
+CHC高清电影,http://222.132.191.125:9901/tsfile/live/1010_1.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CHC高清电影,http://115.150.63.77:9901/tsfile/live/1031_1.m3u8?fbl=,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
+CHC动作电影,http://115.150.63.77:9901/tsfile/live/1047_1.m3u8?fbl=,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
+CCTV-3,http://www.namewee.xyz/gudou.php?id=364&id=1603,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CCTV-1,http://alivealone.litenews.cn/301/b597ff6aa9cb40aba57bb011b13865ad.flv,cURL Error: Operation timed out after 5000 milliseconds with 2526713 bytes received
 CCTV-5+,https://p.ggiptv.com/v/ysp.m3u8?token=VrdagFDc9Zjt1QOS7iG35BiW&id=cctv5p,M3U8文件格式不正确
 CCTV-7,https://p.ggiptv.com/v/ysp.m3u8?token=AYGVKDFhgvRTEF%2FX%2F%2F1im7Qs&id=cctv7,M3U8文件格式不正确
 CCTV-7,https://p.ggiptv.com/v/ysp.m3u8?token=CYyTfmEz1fFTEF%2FX%2F%2F1imLkv&id=cctv7,M3U8文件格式不正确
 CCTV-11,https://p.ggiptv.com/v/ysp.m3u8?token=Ri7m%2FqyIJ1njhPZnlLsZr1P2&id=cctv11,M3U8文件格式不正确
 CCTV-14,https://p.ggiptv.com/v/ysp.m3u8?token=xq46u4J%2F9AZA94aeCtwE0kKB&id=cctv14,M3U8文件格式不正确
-海峡卫视,http://r.jdshipin.com/WtYt3,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
+海峡卫视,http://r.jdshipin.com/WtYt3,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
 东方卫视,https://volc-stream.kksmg.com/live/dfws/index.m3u8?volcSecret=4a54563fdc3cf8d5dcd6146d96abd9b6&volcTime=1701436815,HTTP请求失败，状态码：403
-四川卫视,http://120.196.232.18:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226659/1.m3u8,HTTP请求失败，状态码：403
-山西卫视,http://120.196.232.19:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226704/1.m3u8,HTTP请求失败，状态码：502
+四川卫视,http://120.196.232.18:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226659/1.m3u8,HTTP请求失败，状态码：502
+山西卫视,http://120.196.232.19:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226704/1.m3u8,HTTP请求失败，状态码：403
 云南卫视,http://120.196.232.52:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226709/1.m3u8,HTTP请求失败，状态码：403
 陕西卫视,http://120.196.232.55:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226707/1.m3u8,HTTP请求失败，状态码：502
 河北卫视,http://120.196.232.55:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226684/1.m3u8,HTTP请求失败，状态码：502
-河南卫视,http://120.196.232.29:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226668/1.m3u8,HTTP请求失败，状态码：502
+河南卫视,http://120.196.232.29:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226668/1.m3u8,HTTP请求失败，状态码：403
 河南卫视,http://180.101.30.118/tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=b84a8c35223e9c91c37b6fd94f93cb82&wsTime=1701364535&wsSession=10db66fdd8e08d4ba30c88a9-170135136405709&wsIPSercert=cdcda464740bfabc4001fc31722b32bc&wsiphost=local&wsBindIP=1,HTTP请求失败，状态码：403
 内蒙古卫视,http://120.196.232.39:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226685/1.m3u8,HTTP请求失败，状态码：502
 青海卫视,http://120.196.232.47:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226696/1.m3u8,HTTP请求失败，状态码：502
@@ -831,70 +815,70 @@ CCTV-14,https://p.ggiptv.com/v/ysp.m3u8?token=xq46u4J%2F9AZA94aeCtwE0kKB&id=cctv
 宁夏卫视,http://120.196.232.45:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226691/1.m3u8,HTTP请求失败，状态码：502
 新疆卫视,http://120.196.232.37:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226700/1.m3u8,HTTP请求失败，状态码：502
 西藏卫视,http://120.196.232.44:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226710/1.m3u8,HTTP请求失败，状态码：403
-湖南卫视,http://171.214.202.74:4000/udp/239.93.0.88:5140,cURL Error: Operation timed out after 5001 milliseconds with 4960004 bytes received
-江苏卫视,http://171.214.202.74:4000/udp/239.93.0.89:5140,cURL Error: Operation timed out after 5001 milliseconds with 4960004 bytes received
-浙江卫视,http://171.214.202.74:4000/udp/239.93.0.124:5140,cURL Error: Operation timed out after 5001 milliseconds with 4960004 bytes received
-东方卫视,http://171.214.202.74:4000/udp/239.93.0.123:5140,cURL Error: Operation timed out after 5001 milliseconds with 4960004 bytes received
-北京卫视,http://171.214.202.74:4000/udp/239.93.0.180:5140,cURL Error: Operation timed out after 5001 milliseconds with 4960004 bytes received
-四川卫视,http://171.214.202.74:4000/udp/239.93.0.20:1235,cURL Error: Operation timed out after 5001 milliseconds with 4960004 bytes received
-深圳卫视,http://171.214.202.74:4000/udp/239.93.0.182:5140,cURL Error: Operation timed out after 5001 milliseconds with 4960004 bytes received
-广东卫视,http://171.214.202.74:4000/udp/239.93.0.181:5140,cURL Error: Operation timed out after 5001 milliseconds with 4960004 bytes received
-天津卫视,http://171.214.202.74:4000/udp/239.93.0.167:5140,cURL Error: Operation timed out after 5001 milliseconds with 4960004 bytes received
-山东卫视,http://171.214.202.74:4000/udp/239.93.0.168:5140,cURL Error: Operation timed out after 5001 milliseconds with 4960004 bytes received
-江西卫视,http://171.214.202.74:4000/udp/239.93.0.134:5140,cURL Error: Operation timed out after 5001 milliseconds with 4960004 bytes received
-东南卫视,http://171.214.202.74:4000/udp/239.93.0.42:5140,cURL Error: Operation timed out after 5001 milliseconds with 4960004 bytes received
-重庆卫视,http://171.214.202.74:4000/udp/239.93.1.107:5140,cURL Error: Operation timed out after 5001 milliseconds with 4960004 bytes received
-贵州卫视,http://171.214.202.74:4000/udp/239.93.0.131:5140,cURL Error: Operation timed out after 5001 milliseconds with 4960004 bytes received
-湖北卫视,http://171.214.202.74:4000/udp/239.93.0.250:5140,cURL Error: Operation timed out after 5001 milliseconds with 4960004 bytes received
-安徽卫视,http://171.214.202.74:4000/udp/239.93.1.106:5140,cURL Error: Operation timed out after 5001 milliseconds with 4960004 bytes received
-河北卫视,http://171.214.202.74:4000/udp/239.93.0.132:5140,cURL Error: Operation timed out after 5001 milliseconds with 4960004 bytes received
-辽宁卫视,http://171.214.202.74:4000/udp/239.93.1.108:5140,cURL Error: Operation timed out after 5001 milliseconds with 4960004 bytes received
-河南卫视,http://171.214.202.74:4000/udp/239.93.42.45:5140,cURL Error: Operation timed out after 5001 milliseconds with 4960004 bytes received
-广西卫视,http://171.214.202.74:4000/udp/239.93.42.46:5140,cURL Error: Operation timed out after 5001 milliseconds with 4960004 bytes received
-云南卫视,http://171.214.202.74:4000/udp/239.93.0.174:5140,cURL Error: Operation timed out after 5001 milliseconds with 4960004 bytes received
-吉林卫视,http://171.214.202.74:4000/udp/239.93.0.248:5140,cURL Error: Operation timed out after 5001 milliseconds with 4960004 bytes received
-陕西卫视,http://171.214.202.74:4000/udp/239.93.0.176:5140,cURL Error: Operation timed out after 5001 milliseconds with 4960004 bytes received
-山西卫视,http://171.214.202.74:4000/udp/239.93.0.6:5140,cURL Error: Operation timed out after 5001 milliseconds with 4960004 bytes received
-内蒙古卫视,http://171.214.202.74:4000/udp/239.93.0.8:5140,cURL Error: Operation timed out after 5001 milliseconds with 4960004 bytes received
-青海卫视,http://171.214.202.74:4000/udp/239.93.0.192:5140,cURL Error: Operation timed out after 5001 milliseconds with 4960004 bytes received
-宁夏卫视,http://171.214.202.74:4000/udp/239.93.0.247:5140,cURL Error: Operation timed out after 5001 milliseconds with 4960004 bytes received
-西藏卫视,http://171.214.202.74:4000/udp/239.93.0.175:5140,cURL Error: Operation timed out after 5001 milliseconds with 4960004 bytes received
-新疆卫视,http://171.214.202.74:4000/udp/239.93.0.194:5140,cURL Error: Operation timed out after 5001 milliseconds with 4960004 bytes received
-甘肃卫视,http://171.214.202.74:4000/udp/239.93.0.81:5140,cURL Error: Operation timed out after 5001 milliseconds with 4960004 bytes received
-海南卫视,http://171.214.202.74:4000/udp/239.93.0.80:5140,cURL Error: Operation timed out after 5001 milliseconds with 4960004 bytes received
-厦门卫视,http://171.214.202.74:4000/udp/239.93.42.57:5140,cURL Error: Operation timed out after 5001 milliseconds with 4960004 bytes received
+湖南卫视,http://171.214.202.74:4000/udp/239.93.0.88:5140,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+江苏卫视,http://171.214.202.74:4000/udp/239.93.0.89:5140,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+浙江卫视,http://171.214.202.74:4000/udp/239.93.0.124:5140,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+东方卫视,http://171.214.202.74:4000/udp/239.93.0.123:5140,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+北京卫视,http://171.214.202.74:4000/udp/239.93.0.180:5140,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+四川卫视,http://171.214.202.74:4000/udp/239.93.0.20:1235,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+深圳卫视,http://171.214.202.74:4000/udp/239.93.0.182:5140,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+广东卫视,http://171.214.202.74:4000/udp/239.93.0.181:5140,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+天津卫视,http://171.214.202.74:4000/udp/239.93.0.167:5140,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+山东卫视,http://171.214.202.74:4000/udp/239.93.0.168:5140,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+江西卫视,http://171.214.202.74:4000/udp/239.93.0.134:5140,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+东南卫视,http://171.214.202.74:4000/udp/239.93.0.42:5140,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+重庆卫视,http://171.214.202.74:4000/udp/239.93.1.107:5140,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+贵州卫视,http://171.214.202.74:4000/udp/239.93.0.131:5140,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+湖北卫视,http://171.214.202.74:4000/udp/239.93.0.250:5140,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+安徽卫视,http://171.214.202.74:4000/udp/239.93.1.106:5140,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+河北卫视,http://171.214.202.74:4000/udp/239.93.0.132:5140,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+辽宁卫视,http://171.214.202.74:4000/udp/239.93.1.108:5140,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+河南卫视,http://171.214.202.74:4000/udp/239.93.42.45:5140,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+广西卫视,http://171.214.202.74:4000/udp/239.93.42.46:5140,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+云南卫视,http://171.214.202.74:4000/udp/239.93.0.174:5140,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+吉林卫视,http://171.214.202.74:4000/udp/239.93.0.248:5140,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+陕西卫视,http://171.214.202.74:4000/udp/239.93.0.176:5140,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+山西卫视,http://171.214.202.74:4000/udp/239.93.0.6:5140,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+内蒙古卫视,http://171.214.202.74:4000/udp/239.93.0.8:5140,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+青海卫视,http://171.214.202.74:4000/udp/239.93.0.192:5140,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+宁夏卫视,http://171.214.202.74:4000/udp/239.93.0.247:5140,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+西藏卫视,http://171.214.202.74:4000/udp/239.93.0.175:5140,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+新疆卫视,http://171.214.202.74:4000/udp/239.93.0.194:5140,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+甘肃卫视,http://171.214.202.74:4000/udp/239.93.0.81:5140,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+海南卫视,http://171.214.202.74:4000/udp/239.93.0.80:5140,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+厦门卫视,http://171.214.202.74:4000/udp/239.93.42.57:5140,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
 湖南卫视,http://8.217.77.255:9999/ysp.php?id=hunws,HTTP请求失败，状态码：404
-北京卫视,http://218.241.192.50:8808/udp/239.3.1.241:8000,cURL Error: Operation timed out after 5000 milliseconds with 4920524 bytes received
-浙江卫视,http://218.241.192.50:8808/udp/239.3.1.137:8036,cURL Error: Operation timed out after 5000 milliseconds with 4920524 bytes received
-江苏卫视,http://218.241.192.50:8808/udp/239.3.1.135:8028,cURL Error: Operation timed out after 5000 milliseconds with 4920524 bytes received
-东方卫视,http://218.241.192.50:8808/udp/239.3.1.136:8032,cURL Error: Operation timed out after 5000 milliseconds with 4920524 bytes received
-山东卫视,http://218.241.192.50:8808/udp/239.3.1.209:8052,cURL Error: Operation timed out after 5000 milliseconds with 4920524 bytes received
-安徽卫视,http://218.241.192.50:8808/udp/239.3.1.211:8064,cURL Error: Operation timed out after 5000 milliseconds with 4920524 bytes received
-湖北卫视,http://218.241.192.50:8808/udp/239.3.1.138:8044,cURL Error: Operation timed out after 5000 milliseconds with 4920524 bytes received
-东南卫视,http://218.241.192.50:8808/udp/239.3.1.156:8148,cURL Error: Operation timed out after 5000 milliseconds with 4920524 bytes received
-广东卫视,http://218.241.192.50:8808/udp/239.3.1.142:8048,cURL Error: Operation timed out after 5000 milliseconds with 4920524 bytes received
-辽宁卫视,http://218.241.192.50:8808/udp/239.3.1.210:8056,cURL Error: Operation timed out after 5000 milliseconds with 4920524 bytes received
-深圳卫视,http://218.241.192.50:8808/udp/239.3.1.134:8020,cURL Error: Operation timed out after 5000 milliseconds with 4920524 bytes received
-贵州卫视,http://218.241.192.50:8808/udp/239.3.1.149:8076,cURL Error: Operation timed out after 5000 milliseconds with 4920524 bytes received
-天津卫视,http://218.241.192.50:8808/udp/239.3.1.141:1234,cURL Error: Operation timed out after 5000 milliseconds with 4920524 bytes received
-重庆卫视,http://218.241.192.50:8808/udp/239.3.1.122:8160,cURL Error: Operation timed out after 5000 milliseconds with 4920524 bytes received
-江西卫视,http://218.241.192.50:8808/udp/239.3.1.123:8164,cURL Error: Operation timed out after 5000 milliseconds with 4920524 bytes received
-吉林卫视,http://218.241.192.50:8808/udp/239.3.1.240:8172,cURL Error: Operation timed out after 5000 milliseconds with 4920524 bytes received
-CHC高清电影,http://36.158.96.201:9901/tsfile/live/1093_1.m3u8?key=txiptv&playlive=1&authid=0,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-湖南卫视,http://222.244.113.235:808/hls/1/index.m3u8,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-广东卫视,http://116.20.32.193:54321/udp/239.77.0.2:5146,cURL Error: Operation timed out after 5000 milliseconds with 1530508 bytes received
-广东卫视,http://116.20.32.193:54321/udp/239.77.1.2:5146,cURL Error: Operation timed out after 5000 milliseconds with 1530508 bytes received
-广东卫视,http://116.20.32.193:54321/udp/239.77.1.19:5146,cURL Error: Operation timed out after 5000 milliseconds with 1530508 bytes received
-广东卫视,http://116.20.32.193:54321/udp/239.77.1.152:5146,cURL Error: Operation timed out after 5000 milliseconds with 1530508 bytes received
-广东卫视,http://116.20.32.193:54321/udp/239.77.0.84:5146,cURL Error: Operation timed out after 5000 milliseconds with 1530508 bytes received
-广东卫视,http://116.20.32.193:54321/udp/239.77.0.166:5146,cURL Error: Operation timed out after 5000 milliseconds with 1530508 bytes received
-深圳卫视,http://116.20.32.193:54321/udp/239.77.0.55:5146,cURL Error: Operation timed out after 5000 milliseconds with 1530508 bytes received
-深圳卫视,http://116.20.32.193:54321/udp/239.77.1.21:5146,cURL Error: Operation timed out after 5000 milliseconds with 1530508 bytes received
-深圳卫视,http://116.20.32.193:54321/udp/239.77.1.3:5146,cURL Error: Operation timed out after 5000 milliseconds with 1530508 bytes received
-深圳卫视,http://116.20.32.193:54321/udp/239.77.1.148:5146,cURL Error: Operation timed out after 5000 milliseconds with 1530508 bytes received
-深圳卫视,http://116.20.32.193:54321/udp/239.77.0.92:5146,cURL Error: Operation timed out after 5000 milliseconds with 1530508 bytes received
-深圳卫视,http://116.20.32.193:54321/udp/239.77.0.130:5146,cURL Error: Operation timed out after 5000 milliseconds with 1530508 bytes received
-CCTV-5+,http://222.243.28.152:9901/tsfile/live/0016_1.m3u8,cURL Error: Operation timed out after 5005 milliseconds with 0 bytes received
+北京卫视,http://218.241.192.50:8808/udp/239.3.1.241:8000,cURL Error: Operation timed out after 5000 milliseconds with 4928420 bytes received
+浙江卫视,http://218.241.192.50:8808/udp/239.3.1.137:8036,cURL Error: Operation timed out after 5000 milliseconds with 4928420 bytes received
+江苏卫视,http://218.241.192.50:8808/udp/239.3.1.135:8028,cURL Error: Operation timed out after 5000 milliseconds with 4928420 bytes received
+东方卫视,http://218.241.192.50:8808/udp/239.3.1.136:8032,cURL Error: Operation timed out after 5000 milliseconds with 4928420 bytes received
+山东卫视,http://218.241.192.50:8808/udp/239.3.1.209:8052,cURL Error: Operation timed out after 5000 milliseconds with 4928420 bytes received
+安徽卫视,http://218.241.192.50:8808/udp/239.3.1.211:8064,cURL Error: Operation timed out after 5000 milliseconds with 4928420 bytes received
+湖北卫视,http://218.241.192.50:8808/udp/239.3.1.138:8044,cURL Error: Operation timed out after 5000 milliseconds with 4928420 bytes received
+东南卫视,http://218.241.192.50:8808/udp/239.3.1.156:8148,cURL Error: Operation timed out after 5000 milliseconds with 4928420 bytes received
+广东卫视,http://218.241.192.50:8808/udp/239.3.1.142:8048,cURL Error: Operation timed out after 5000 milliseconds with 4928420 bytes received
+辽宁卫视,http://218.241.192.50:8808/udp/239.3.1.210:8056,cURL Error: Operation timed out after 5000 milliseconds with 4928420 bytes received
+深圳卫视,http://218.241.192.50:8808/udp/239.3.1.134:8020,cURL Error: Operation timed out after 5000 milliseconds with 4928420 bytes received
+贵州卫视,http://218.241.192.50:8808/udp/239.3.1.149:8076,cURL Error: Operation timed out after 5000 milliseconds with 4928420 bytes received
+天津卫视,http://218.241.192.50:8808/udp/239.3.1.141:1234,cURL Error: Operation timed out after 5000 milliseconds with 4928420 bytes received
+重庆卫视,http://218.241.192.50:8808/udp/239.3.1.122:8160,cURL Error: Operation timed out after 5000 milliseconds with 4928420 bytes received
+江西卫视,http://218.241.192.50:8808/udp/239.3.1.123:8164,cURL Error: Operation timed out after 5000 milliseconds with 4928420 bytes received
+吉林卫视,http://218.241.192.50:8808/udp/239.3.1.240:8172,cURL Error: Operation timed out after 5000 milliseconds with 4928420 bytes received
+CHC高清电影,http://36.158.96.201:9901/tsfile/live/1093_1.m3u8?key=txiptv&playlive=1&authid=0,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+湖南卫视,http://222.244.113.235:808/hls/1/index.m3u8,cURL Error: Operation timed out after 5003 milliseconds with 0 bytes received
+广东卫视,http://116.20.32.193:54321/udp/239.77.0.2:5146,cURL Error: Operation timed out after 5000 milliseconds with 1533140 bytes received
+广东卫视,http://116.20.32.193:54321/udp/239.77.1.2:5146,cURL Error: Operation timed out after 5000 milliseconds with 1533140 bytes received
+广东卫视,http://116.20.32.193:54321/udp/239.77.1.19:5146,cURL Error: Operation timed out after 5000 milliseconds with 1533140 bytes received
+广东卫视,http://116.20.32.193:54321/udp/239.77.1.152:5146,cURL Error: Operation timed out after 5000 milliseconds with 1533140 bytes received
+广东卫视,http://116.20.32.193:54321/udp/239.77.0.84:5146,cURL Error: Operation timed out after 5000 milliseconds with 1533140 bytes received
+广东卫视,http://116.20.32.193:54321/udp/239.77.0.166:5146,cURL Error: Operation timed out after 5000 milliseconds with 1533140 bytes received
+深圳卫视,http://116.20.32.193:54321/udp/239.77.0.55:5146,cURL Error: Operation timed out after 5000 milliseconds with 1533140 bytes received
+深圳卫视,http://116.20.32.193:54321/udp/239.77.1.21:5146,cURL Error: Operation timed out after 5000 milliseconds with 1533140 bytes received
+深圳卫视,http://116.20.32.193:54321/udp/239.77.1.3:5146,cURL Error: Operation timed out after 5000 milliseconds with 1533140 bytes received
+深圳卫视,http://116.20.32.193:54321/udp/239.77.1.148:5146,cURL Error: Operation timed out after 5000 milliseconds with 1533140 bytes received
+深圳卫视,http://116.20.32.193:54321/udp/239.77.0.92:5146,cURL Error: Operation timed out after 5000 milliseconds with 1533140 bytes received
+深圳卫视,http://116.20.32.193:54321/udp/239.77.0.130:5146,cURL Error: Operation timed out after 5000 milliseconds with 1533140 bytes received
+CCTV-5+,http://222.243.28.152:9901/tsfile/live/0016_1.m3u8,cURL Error: Operation timed out after 5003 milliseconds with 0 bytes received
 CCTV-5,http://wd.shadowzen.xyz/tvphp/cqyx2.php?id=cctv5,M3U8响应302且文件不存在
 辽宁卫视,http://cyz32.livehbindex.hbcatv.cn/live/5000002019d84b0ba201007677bbf28c.m3u8?bitrate=2300&pt=5,HTTP请求失败，状态码：403
 河北卫视,http://cyz32.livehbindex.hbcatv.cn/live/50000020d6be4c4ba70a4e3261b14544.m3u8?bitrate=2300&pt=5,HTTP请求失败，状态码：403
@@ -916,7 +900,7 @@ CCTV-5,http://wd.shadowzen.xyz/tvphp/cqyx2.php?id=cctv5,M3U8响应302且文件�
 新疆卫视,http://cyz32.livehbindex.hbcatv.cn/live/500000201e484cbeb064a31201e3dd05.m3u8?bitrate=2300&pt=5,HTTP请求失败，状态码：403
 西藏卫视,http://cyz32.livehbindex.hbcatv.cn/live/50000020816449349b10593cfdde8311.m3u8?bitrate=2300&pt=5,HTTP请求失败，状态码：403
 广东卫视,http://8.217.90.28:9999/触电.php?id=gdws,HTTP请求失败，状态码：404
-CCTV-5,http://111.20.40.173/PLTV/88888893/224/3221226395/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CCTV-5,http://111.20.40.173/PLTV/88888893/224/3221226395/index.m3u8,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
 CCTV-5+,http://hms184nc1972679574.live.aikan.miguvideo.com/wh7f454c46tw4035956330_-1197773273/wd_r2/cctv/cctv5plusnew/2500/01.m3u8?msisdn=guest&Channel_ID=0119_04102000-99000_400300000040002&client_ip=112.45.97.120&timestamp=20230208130700&ContentId=265106763&timezone=UTC&mtv_session=b1d7170ccd660150baa2e9435d787064&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=dfe2cfbc447ddc224a226f33be3d0f39,HTTP请求失败，状态码：403
 CHC高清电影,http://223.109.210.41/4309-tx.otvstream.otvcloud.com/otv/skcc/live/channel43063/index.m3u8,HTTP请求失败，状态码：502
 CHC高清电影,http://106.39.160.146/live.aishang.ctlcdn.com/00000110240325_1/encoder/0/playlist.m3u8?CONTENTID=00000110240325_1,HTTP请求失败，状态码：502
@@ -925,15 +909,15 @@ CHC动作电影,http://106.39.160.146/live.aishang.ctlcdn.com/00000110240324_1/e
 CHC家庭影院,http://106.39.160.155/live.aishang.ctlcdn.com/00000110240323_1/playlist.m3u8?CONTENTID=00000110240323_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,HTTP请求失败，状态码：502
 CHC动作电影,http://106.39.160.155/live.aishang.ctlcdn.com/00000110240324_1/playlist.m3u8?CONTENTID=00000110240324_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,HTTP请求失败，状态码：502
 CHC高清电影,http://106.39.160.155/live.aishang.ctlcdn.com/00000110240325_1/playlist.m3u8?CONTENTID=00000110240325_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR,HTTP请求失败，状态码：502
-CHC家庭影院,http://8.210.232.168/php/migu.php?id=chcjtyy,cURL Error: Operation timed out after 5004 milliseconds with 0 bytes received
-CHC家庭影院,http://zhuji.sdrnwl.cn:9901/tsfile/live/1059_1.m3u8,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
-CHC动作电影,http://zhuji.sdrnwl.cn:9901/tsfile/live/1060_1.m3u8,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
-CHC高清电影,http://zhuji.sdrnwl.cn:9901/tsfile/live/1058_1.m3u8,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
-CHC家庭影院,http://171.110.42.48:8181/tsfile/live/1015_1.m3u8,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
-CHC动作电影,http://171.110.42.48:8181/tsfile/live/1016_1.m3u8,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
-CHC高清电影,http://171.110.42.48:8181/tsfile/live/1017_1.m3u8,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
-CHC家庭影院,http://111.20.40.171/PLTV/88888893/224/3221226462/index.m3u8,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
-CHC高清电影,http://111.20.40.171/PLTV/88888893/224/3221226463/index.m3u8,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
-CHC高清电影,http://111.20.40.170/PLTV/88888893/224/3221226463/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-CHC动作电影,http://111.20.40.170/PLTV/88888893/224/3221226465/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
-CHC家庭影院,http://111.20.40.170/PLTV/88888893/224/3221226462/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CHC家庭影院,http://8.210.232.168/php/migu.php?id=chcjtyy,HTTP请求失败，状态码：502
+CHC家庭影院,http://zhuji.sdrnwl.cn:9901/tsfile/live/1059_1.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CHC动作电影,http://zhuji.sdrnwl.cn:9901/tsfile/live/1060_1.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CHC高清电影,http://zhuji.sdrnwl.cn:9901/tsfile/live/1058_1.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CHC家庭影院,http://171.110.42.48:8181/tsfile/live/1015_1.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CHC动作电影,http://171.110.42.48:8181/tsfile/live/1016_1.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CHC高清电影,http://171.110.42.48:8181/tsfile/live/1017_1.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CHC家庭影院,http://111.20.40.171/PLTV/88888893/224/3221226462/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CHC高清电影,http://111.20.40.171/PLTV/88888893/224/3221226463/index.m3u8,cURL Error: Operation timed out after 5002 milliseconds with 0 bytes received
+CHC高清电影,http://111.20.40.170/PLTV/88888893/224/3221226463/index.m3u8,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
+CHC动作电影,http://111.20.40.170/PLTV/88888893/224/3221226465/index.m3u8,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
+CHC家庭影院,http://111.20.40.170/PLTV/88888893/224/3221226462/index.m3u8,cURL Error: Operation timed out after 5001 milliseconds with 0 bytes received
