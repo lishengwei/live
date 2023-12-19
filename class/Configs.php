@@ -9,6 +9,7 @@ class Configs
      *      string $urlInfo ['url']
      *      bool   $urlInfo ['proxy'] 是否使用代理
      *      array  $urlInfo ['headers'] 是否需要传输header
+     * @throws Exception
      * @return array
      */
     public static function getContent($urlInfo)
@@ -17,19 +18,12 @@ class Configs
         $proxy   = $urlInfo['proxy'] ?? [];
         $headers = $urlInfo['headers'] ?? ['User-Agent: VLC/3.0.20 LibVLC/3.0.20'];
         if (strpos($url, 'http') !== false) {
-            $ch = curl_init();
-            curl_setopt($ch, CURLOPT_URL, $url);
-            curl_setopt($ch, CURLOPT_TIMEOUT, 10); // 设置超时时间，单位为秒
-            curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-            curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false); // 跳过证书检查
-            curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false); // 跳过证书检查
-            curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+            $httpClient = new Http();
+            $httpClient->setTimeOut(10)->setHeaders($headers);
             if (!empty($proxy['host']) && !empty($proxy['port'])) {
-                curl_setopt($ch, CURLOPT_PROXY, $proxy['host']);
-                curl_setopt($ch, CURLOPT_PROXYPORT, $proxy['port']);
+                $httpClient->setProxy($proxy['host'], $proxy['port']);
             }
-            $content = curl_exec($ch);
-            curl_close($ch);
+            $content = $httpClient->send($url);
         } else {
             $content = file_get_contents($url);
         }
