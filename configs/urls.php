@@ -5,6 +5,10 @@ return [
         'hosts' => [],
     ],
     [
+        'url'   => 'https://xhdwc.tk/tvlive.txt',
+        'hosts' => [],
+    ],
+    [
         'url'     => 'https://tvbox.cainisi.cf/TV/',
         'host'    => [],
         'headers' => ['User-Agent: okhttp/3.12.11']

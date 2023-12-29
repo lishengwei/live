@@ -1,4 +1,4 @@
 <?php
 return [
-    'CCTV', '卫视', 'CHC', 'CETV'
+    'CCTV', '卫视', 'CHC', 'CETV',
 ];

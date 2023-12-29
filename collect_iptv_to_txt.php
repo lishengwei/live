@@ -7,23 +7,7 @@ $standardNames = [];
 $configs       = [];
 include_once 'config.php';
 
-$sort            = [];
-$uniqueNames     = [];
-$uniqueCCTVNames = [
-    'CCTV2', 'CCTV02', 'CCTV3', 'CCTV03', 'CCTV4', 'CCTV04', 'CCTV6', 'CCTV06', 'CCTV7', 'CCTV07',
-    'CCTV8', 'CCTV08', 'CCTV9', 'CCTV09', 'CCTV10', 'CCTV11', 'CCTV12', 'CCTV13', 'CCTV14', 'CCTV15',
-    'CCTV16', 'CCTV17', 'CCTV-2', 'CCTV-02', 'CCTV-3', 'CCTV-03', 'CCTV-4', 'CCTV-04', 'CCTV-6', 'CCTV-06',
-    'CCTV-7', 'CCTV-07', 'CCTV-8', 'CCTV-08', 'CCTV-9', 'CCTV-09', 'CCTV-10', 'CCTV-11', 'CCTV-12',
-    'CCTV-13', 'CCTV-14', 'CCTV-15', 'CCTV-16', 'CCTV-17',
-    'CCTV01',
-];
-foreach ($standardNames as $standardName) {
-    $sort[] = $standardName;
-    if (strpos($standardName, '卫视') !== false) {
-        $uniqueNames[] = $standardName;
-    }
-}
-$sort        = array_values(array_unique($sort));
+$sort        = array_values(array_unique(array_values($standardNames)));
 $allChannels = [];
 $noNames     = [];
 $infos       = [];
@@ -34,31 +18,13 @@ foreach ($urls as $urlInfo) {
     }
     $items = Configs::getContent($urlInfo);
     foreach ($items as $item) {
-        $name         = mb_strtoupper($item['name']);
-        $url          = $item['url'];
-        $standardName = $standardNames[$name] ?? '';
-        $stay         = Configs::isStay($name, $searchKeys, $blockKeys);
+        $name = mb_strtoupper($item['name']);
+        $url  = $item['url'];
+        $stay = Configs::isStay($name, $searchKeys, $blockKeys);
         if (!$stay) {
             continue;
         }
-        // 如果没搜索到，试试判断卫视名称，因为卫视名称比较唯一
-        if (empty($standardName) && strpos($name, '卫视') !== false) {
-            foreach ($uniqueNames as $uniqueName) {
-                if (strpos($name, $uniqueName) !== false) {
-                    $standardName = $uniqueName;
-                    break;
-                }
-            }
-        }
-        // cctv的名称搜索，出了cctv1和cctv5
-        if (empty($standardName) && strpos($name, 'CCTV') !== false) {
-            foreach ($uniqueCCTVNames as $uniqueName) {
-                if (strpos($name, $uniqueName) !== false) {
-                    $standardName = $standardNames[$uniqueName];
-                    break;
-                }
-            }
-        }
+        $standardName = Configs::getStandName($name, $standardNames);
         // 如果配置不支持ipv6，则过滤掉ipv6地址
         if (!$configs['ipv6'] && strpos($url, '[') !== false) {
             continue;
@@ -132,7 +98,6 @@ foreach ($infos as $host => $channels) {
         echo $host . ' - ' . ($check ? '可用' : '不可用') . "\n";
     }
 }
-
 
 $all = [];
 foreach ($sort as $sortName) {
