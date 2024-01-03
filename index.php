@@ -1,8 +1,7 @@
 <?php
 
 include_once dirname(__FILE__) . '/config.php';
-
-$globalConfig = GlobalConfig::get();
+$globalConfig         = GlobalConfig::get();
 $globalConfig['ipv6'] = GlobalConfig::isIpv6();
 
 ?>
@@ -14,7 +13,7 @@ $globalConfig['ipv6'] = GlobalConfig::isIpv6();
     <meta name="renderer" content="webkit">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="//cdn.staticfile.org/layui/2.9.3/css/layui.css" rel="stylesheet">
+    <link href="layui/css/layui.css" rel="stylesheet">
 </head>
 <body>
 <div class="layui-layout layui-layout-admin">
@@ -25,7 +24,7 @@ $globalConfig['ipv6'] = GlobalConfig::isIpv6();
         <div class="layui-side-scroll">
             <!-- 左侧导航区域（可配合layui已有的垂直导航） -->
             <ul class="layui-nav layui-nav-tree" lay-filter="test">
-                <li class="layui-nav-item layui-this"><a href="javascript:;">全局配置</a></li>
+                <li class="layui-nav-item layui-this"><a href="index.php">全局配置</a></li>
                 <li class="layui-nav-item">
                     <a class="" href="javascript:;">IPTV</a>
                     <dl class="layui-nav-child">
@@ -46,23 +45,79 @@ $globalConfig['ipv6'] = GlobalConfig::isIpv6();
             </blockquote>
             <div class="layui-card layui-panel">
                 <form class="layui-form" action="">
-                    <table class="layui-table">
+                    <table class="layui-table" lay-filter="global_configs">
                         <colgroup>
                             <col width="250">
                             <col width="">
+                            <col width="150">
                         </colgroup>
                         <thead>
                         <tr>
                             <th>项目</th>
                             <th>值</th>
+                            <th>操作</th>
                         </tr>
                         </thead>
                         <tbody>
                         <tr>
                             <td>本地环境是否支持IPV6</td>
                             <td>
-                                <?php if ($globalConfig['ipv6']) {echo '是';} else {echo '否';}?>
+                                <?php if ($globalConfig['ipv6']) {
+                                    echo '是';
+                                } else {
+                                    echo '否';
+                                } ?>
                             </td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>代理设置</td>
+                            <td>
+                                <?php
+                                $proxy = $globalConfig['proxy'] ?? [];
+                                if (!empty($proxy['host']) && !empty($proxy['port'])) {
+                                    echo $proxy['host'] . ':' . $proxy['port'];
+                                } else {
+                                    echo '无';
+                                }
+                                ?>
+                            </td>
+                            <td>
+                                <button type="button" class="layui-btn" lay-event="edit_proxy">编辑</button>
+                                <a class="layui-btn layui-btn-xs" lay-event="edit">编辑</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>外部链接</td>
+                            <td>
+                                <?php
+                                $urls = $globalConfig['urls'] ?? [];
+                                if (empty($urls)) {
+                                    echo '暂无';
+                                } else {
+                                    foreach ($urls as $url) {
+                                        echo $url . '<br>';
+                                    }
+                                }
+                                ?>
+                            </td>
+                            <td>编辑</td>
+                        </tr>
+                        <tr>
+                            <td>电视台</td>
+                            <td>
+                                <?php
+                                $channels = $globalConfig['channels'] ?? [];
+                                if (empty($channels)) {
+                                    echo '暂无';
+                                } else {
+                                    foreach ($channels as $channel) {
+                                        echo $channel . '<br>';
+                                    }
+                                }
+                                ?>
+                            </td>
+                            <td>编辑</td>
                         </tr>
                         </tbody>
                     </table>
@@ -76,56 +131,45 @@ $globalConfig['ipv6'] = GlobalConfig::isIpv6();
     </div>
 </div>
 
-<script src="//cdn.staticfile.org/layui/2.9.3/layui.js"></script>
+<script src="layui/layui.js"></script>
 <script>
     //JS
-    layui.use(['element', 'form', 'layer', 'util'], function () {
-        var element = layui.element;
-        var form = layui.form;
-        var layer = layui.layer;
-        var util = layui.util;
-        var $ = layui.$;
-
-        //头部事件
-        util.event('lay-header-event', {
-            menuLeft: function (othis) { // 左侧菜单事件
-                layer.msg('展开左侧菜单的操作', {icon: 0});
-            },
-            menuRight: function () {  // 右侧菜单事件
-                layer.open({
-                    type: 1,
-                    title: '更多',
-                    content: '<div style="padding: 15px;">处理右侧面板的操作</div>',
-                    area: ['260px', '100%'],
-                    offset: 'rt', // 右上角
-                    anim: 'slideLeft', // 从右侧抽屉滑出
-                    shadeClose: true,
-                    scrollbar: false
+    layui.use([ 'table'], function () {
+        const table = layui.table;
+        console.log(1111);
+        table.on('tool(global_configs)', function (obj) {
+            console.log(222);
+            var data = obj.data;
+            if (obj.event === 'edit') {
+                layer.prompt({
+                    formType: 2,
+                    value: data.proxy,
+                    title: '编辑代理地址',
+                    area: ['800px', '350px'] //自定义文本域宽高
+                }, function (value, index, elem) {
+                    // 发送ajax
+                    $.ajax({
+                        url: 'api/config.php',
+                        type: 'post',
+                        data: {
+                            proxy: value
+                        },
+                        dataType: 'json',
+                        success: function (res) {
+                            if (res.code === 0) {
+                                layer.msg('设置成功');
+                            } else {
+                                layer.msg('设置失败');
+                            }
+                        },
+                        error: function () {
+                            layer.msg('设置失败');
+                        }
+                    });
+                    layer.close(index);
                 });
             }
         });
-
-        // form.on('switch(switchTest)', function (data) {
-        //     // 发送ajax
-        //     $.ajax({
-        //         url: 'api/config.php',
-        //         type: 'post',
-        //         data: {
-        //             ipv6: this.checked ? 1 : 0
-        //         },
-        //         dataType: 'json',
-        //         success: function (res) {
-        //             if (res.code === 0) {
-        //                 layer.msg('设置成功');
-        //             } else {
-        //                 layer.msg('设置失败');
-        //             }
-        //         },
-        //         error: function () {
-        //             layer.msg('设置失败');
-        //         }
-        //     });
-        // });
     });
 </script>
 </body>

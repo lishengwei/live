@@ -1766,6 +1766,9 @@ http://[2409:8087:2001:20:2800:0:df6e:eb0c]:80/wh7f454c46tw2054729514_1244097787
 #EXTINF:-1,浙江卫视
 http://[2409:8087:2001:20:2800:0:df6e:eb06]:80/wh7f454c46tw1549378093_1832251100/ott.mobaibox.com/PLTV/3/224/3221227215/index.m3u8?icpid=3&RTS=1674385959&from=40&popid=40&hms_devid=2036&prioritypopid=40&vqe=3
 #EXTM3U
+#EXTINF:-1,浙江卫视
+http://zteres.sn.chinamobile.com:6060/000000001000/1000000001000009806/1.m3u8?channel-id=ystenlive&Contentid=1000000001000009806&livemode=1&stbId=3
+#EXTM3U
 #EXTINF:-1,东方卫视
 http://39.134.66.66/PLTV/88888888/224/3221225672/index.m3u8
 #EXTM3U
@@ -2493,7 +2496,7 @@ http://[2409:8087:2001:20:2800:0:df6e:eb0c]:80/wh7f454c46tw1929912988_-881662239
 http://[2409:8087:2001:20:2800:0:df6e:eb06]:80/wh7f454c46tw195619489_1991259086/ott.mobaibox.com/PLTV/3/224/3221227212/index.m3u8?icpid=3&RTS=1674380311&from=40&popid=40&hms_devid=2036&prioritypopid=40&vqe=3
 #EXTM3U
 #EXTINF:-1,天津卫视
-http://101.27.38.148:8888/hls/25/index.m3u8
+http://[2409:8087:7004:20:1000::22]:6610/yinhe/2/ch00000090990000001037/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 #EXTM3U
 #EXTINF:-1,安徽卫视
 http://live.aishang.ctlcdn.com/00000110240256_1/playlist.m3u8?CONTENTID=00000110240256_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR
