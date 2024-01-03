@@ -4,10 +4,10 @@ class FileDb
 {
     private static function _getPath()
     {
-        if (!is_dir(LOCAL_DIR . '/db')) {
-            mkdir(LOCAL_DIR . '/db');
+        if (!is_dir(LOCAL_DIR . '/.db')) {
+            mkdir(LOCAL_DIR . '/.db');
         }
-        return LOCAL_DIR . '/db';
+        return LOCAL_DIR . '/.db';
     }
 
     public static function set($table, $value)
