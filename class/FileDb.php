@@ -2,7 +2,7 @@
 
 class FileDb
 {
-    private static function _getPath()
+    public static function getPath()
     {
         if (!is_dir(LOCAL_DIR . '/.db')) {
             mkdir(LOCAL_DIR . '/.db');
@@ -12,13 +12,13 @@ class FileDb
 
     public static function set($table, $value)
     {
-        $file = self::_getPath() . '/' . $table . '.json';
+        $file = self::getPath() . '/' . $table;
         return file_put_contents($file, json_encode($value));
     }
 
     public static function get($table)
     {
-        $file = self::_getPath() . '/' . $table . '.json';
+        $file = self::getPath() . '/' . $table;
         if (!file_exists($file)) {
             return [];
         }

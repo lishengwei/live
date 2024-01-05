@@ -3,6 +3,7 @@
 include_once dirname(__FILE__) . '/config.php';
 $globalConfig         = GlobalConfig::get();
 $globalConfig['ipv6'] = GlobalConfig::isIpv6();
+$channelsGroups       = ChannelsGroup::getAll();
 
 ?>
 <!DOCTYPE html>
@@ -26,13 +27,7 @@ $globalConfig['ipv6'] = GlobalConfig::isIpv6();
             <ul class="layui-nav layui-nav-tree" lay-filter="test">
                 <li class="layui-nav-item layui-this"><a href="index.php">全局配置</a></li>
                 <li class="layui-nav-item">
-                    <a class="" href="javascript:;">IPTV</a>
-                    <dl class="layui-nav-child">
-                        <dd><a href="javascript:;">menu 1</a></dd>
-                        <dd><a href="javascript:;">menu 2</a></dd>
-                        <dd><a href="javascript:;">menu 3</a></dd>
-                        <dd><a href="javascript:;">the links</a></dd>
-                    </dl>
+                    <a class="" href="channels.php">IPTV</a>
                 </li>
             </ul>
         </div>
@@ -83,8 +78,8 @@ $globalConfig['ipv6'] = GlobalConfig::isIpv6();
                                 ?>
                             </td>
                             <td>
-                                <button type="button" class="layui-btn" lay-event="edit_proxy">编辑</button>
-                                <a class="layui-btn layui-btn-xs" lay-event="edit">编辑</a>
+                                <button type="button" class="layui-btn" id="edit_proxy" lay-on="edit_proxy">编辑
+                                </button>
                             </td>
                         </tr>
                         <tr>
@@ -131,46 +126,10 @@ $globalConfig['ipv6'] = GlobalConfig::isIpv6();
     </div>
 </div>
 
+<div id="edit_proxy_content" style="display: none;">
+    ssss
+</div>
+
 <script src="layui/layui.js"></script>
-<script>
-    //JS
-    layui.use([ 'table'], function () {
-        const table = layui.table;
-        console.log(1111);
-        table.on('tool(global_configs)', function (obj) {
-            console.log(222);
-            var data = obj.data;
-            if (obj.event === 'edit') {
-                layer.prompt({
-                    formType: 2,
-                    value: data.proxy,
-                    title: '编辑代理地址',
-                    area: ['800px', '350px'] //自定义文本域宽高
-                }, function (value, index, elem) {
-                    // 发送ajax
-                    $.ajax({
-                        url: 'api/config.php',
-                        type: 'post',
-                        data: {
-                            proxy: value
-                        },
-                        dataType: 'json',
-                        success: function (res) {
-                            if (res.code === 0) {
-                                layer.msg('设置成功');
-                            } else {
-                                layer.msg('设置失败');
-                            }
-                        },
-                        error: function () {
-                            layer.msg('设置失败');
-                        }
-                    });
-                    layer.close(index);
-                });
-            }
-        });
-    });
-</script>
 </body>
 </html>
