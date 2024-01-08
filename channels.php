@@ -13,7 +13,7 @@ $channelsGroups = ChannelsGroup::getAll();
     <meta name="renderer" content="webkit">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="layui/css/layui.css" rel="stylesheet">
+    <link href="//unpkg.com/layui@2.9.3/dist/css/layui.css" rel="stylesheet">
 </head>
 <body>
 <div class="layui-layout layui-layout-admin">
@@ -43,40 +43,7 @@ $channelsGroups = ChannelsGroup::getAll();
                         <a class="layui-btn layuiadmin-btn-list" data-type="add" href="add.php">添加</a>
                     </div>
 
-                    <table class="layui-table" lay-filter="global_configs">
-                        <colgroup>
-                            <col width="250">
-                            <col width="">
-                        </colgroup>
-                        <thead>
-                        <tr>
-                            <th>项目</th>
-                            <th>操作</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <?php
-                        if (empty($channelsGroups)) {
-                            ?>
-                            <tr>
-                                <td>暂无配置</td>
-                                <td></td>
-                            </tr>
-                            <?php
-                        } else {
-                            foreach ($channelsGroups as $group) {
-                                ?>
-                                <tr>
-                                    <td><?php echo $group; ?></td>
-                                    <td>
-
-                                    </td>
-                                    <td></td>
-                                </tr>
-                            <?php }
-                        } ?>
-                        </tbody>
-                    </table>
+                    <table class="layui-table" id="global_configs" lay-filter="global_configs"></table>
                 </div>
             </div>
             <br><br>
@@ -86,17 +53,47 @@ $channelsGroups = ChannelsGroup::getAll();
         <!-- 底部固定区域 -->
     </div>
 </div>
-
-
-<script src="layui/layui.js"></script>
+<script type="text/html" id="toolEvent">
+    <a class="layui-btn layui-btn-xs" lay-event="edit">编辑</a>
+    <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a>
+</script>
+<script src="//unpkg.com/layui@2.9.3/dist/layui.js"></script>
 <script>
     //JS
-    layui.use(['table', 'util', 'layer', 'form'], function () {
+    layui.use(function () {
         var $ = layui.$;
-        var layer = layui.layer;
-        var util = layui.util;
-        var form = layui.form;
+        var table = layui.table;
+        table.render({
+            elem: '#global_configs'
+            , url: 'api/group-list.php' //数据接口
+            , page: false //开启分页
+            , cols: [[ //表头
+                {field: 'group_name', title: '名称'}
+                , {title: '操作', toolbar: '#toolEvent'}
+            ]]
+        });
+        table.on('tool(global_configs)', function (obj) {
+            var data = obj.data;
 
+            if (obj.event === 'del') {
+                layer.confirm('真的删除么', function (index) {
+                    $.ajax({
+                        url: 'api/group-delete.php',
+                        type: 'post',
+                        data: {group_name: data.group_name},
+                        dataType: 'json',
+                        success: function (res) {
+                            if (res.code === 0) {
+                                location.reload();
+                            } else {
+                                layer.msg('删除失败');
+                            }
+                        }
+                    });
+                    layer.close(index);
+                });
+            }
+        });
     });
 </script>
 </body>

@@ -43,4 +43,16 @@ class ChannelsGroup
         }
         return $resp;
     }
+
+    public static function delete($key)
+    {
+        if (empty($key)) {
+            return false;
+        }
+        $file = FileDb::getPath() . '/' . self::_tableName($key);
+        if (!file_exists($file)) {
+            return false;
+        }
+        return unlink($file);
+    }
 }
