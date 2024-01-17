@@ -145,18 +145,11 @@ class Configs
         if (isset($standardNames[$name])) {
             return $standardNames[$name];
         }
+        // 除了CCTV之外的名称搜索
         $wsNames = [];
         foreach ($standardNames as $standardName) {
-            if (strpos($standardName, '卫视') !== false) {
+            if (strpos($standardName, 'CCTV') === false) {
                 $wsNames[$standardName] = $standardName;
-            }
-        }
-        // 如果name中包含卫视，则取出卫视的名称
-        if (strpos($name, '卫视') !== false) {
-            foreach ($wsNames as $wsName) {
-                if (strpos($name, $wsName) !== false) {
-                    return $wsName;
-                }
             }
         }
         // cctv的名称搜索，除了cctv5
@@ -175,6 +168,12 @@ class Configs
                     }
                 }
                 return 'CCTV-5';
+            }
+        } else {
+            foreach ($wsNames as $wsName) {
+                if (strpos($name, $wsName) !== false) {
+                    return $wsName;
+                }
             }
         }
         return '';
