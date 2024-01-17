@@ -145,7 +145,7 @@ class Configs
         if (isset($standardNames[$name])) {
             return $standardNames[$name];
         }
-        $wsNames   = [];
+        $wsNames = [];
         foreach ($standardNames as $standardName) {
             if (strpos($standardName, '卫视') !== false) {
                 $wsNames[$standardName] = $standardName;
@@ -159,20 +159,22 @@ class Configs
                 }
             }
         }
-        $cctvNames = [
-            'CCTV2', 'CCTV02', 'CCTV3', 'CCTV03', 'CCTV4', 'CCTV04', 'CCTV6', 'CCTV06', 'CCTV7', 'CCTV07',
-            'CCTV8', 'CCTV08', 'CCTV9', 'CCTV09', 'CCTV10', 'CCTV11', 'CCTV12', 'CCTV13', 'CCTV14', 'CCTV15',
-            'CCTV16', 'CCTV17', 'CCTV-2', 'CCTV-02', 'CCTV-3', 'CCTV-03', 'CCTV-4', 'CCTV-04', 'CCTV-6', 'CCTV-06',
-            'CCTV-7', 'CCTV-07', 'CCTV-8', 'CCTV-08', 'CCTV-9', 'CCTV-09', 'CCTV-10', 'CCTV-11', 'CCTV-12',
-            'CCTV-13', 'CCTV-14', 'CCTV-15', 'CCTV-16', 'CCTV-17',
-            'CCTV5+', 'CCTV-5+', 'CCTV05+', 'CCTV-05+',
-        ];
-        // cctv的名称搜索，除了cctv1和cctv5
+        // cctv的名称搜索，除了cctv5
         if (strpos($name, 'CCTV') !== false) {
-            foreach ($cctvNames as $cctvName) {
-                if (strpos($name, $cctvName) !== false && !empty($standardNames[$cctvName])) {
-                    return $standardNames[$cctvName];
+            $matches   = [];
+            $isMatched = preg_match_all('/[1-9]+/', $name, $matches);
+            $first     = $matches[0][0] ?? 0;
+            if ($isMatched && $first != 5) {
+                return 'CCTV-' . implode('', array_slice($matches[0], 0, 2));
+            }
+            if ($isMatched && $first == 5) {
+                $keys = ['p', '+', 'plus'];
+                foreach ($keys as $key) {
+                    if (strpos($name, $key) !== false) {
+                        return 'CCTV-5+';
+                    }
                 }
+                return 'CCTV-5';
             }
         }
         return '';

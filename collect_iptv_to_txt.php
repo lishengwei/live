@@ -60,20 +60,10 @@ foreach ($urls as $urlInfo) {
 }
 
 if (!empty($noNames)) {
-    echo '退出，以下频道名称没有标准名称：' . PHP_EOL;
+    echo 'WARNING 以下频道名称没有标准名称：' . PHP_EOL;
     foreach ($noNames as $name) {
         echo "'" . $name . "' => ''," . PHP_EOL;
     }
-    $httpClient = new Http();
-    $httpClient->setTimeOut(10)
-        ->setHeaders(['Content-Type: application/json;charset=utf-8'])
-        ->send('https://oapi.dingtalk.com/robot/send?access_token=' . $configs['dingtalk_token'], [
-            'msgtype' => 'text',
-            'text'    => [
-                'content' => 'shellerror : 以下频道名称没有标准名称：' . PHP_EOL . implode(PHP_EOL, $noNames),
-            ],
-        ]);
-    exit();
 }
 
 $error      = fopen(LOCAL_DIR . '/error.txt', 'w+');
