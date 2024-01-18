@@ -142,6 +142,7 @@ class Configs
 
     public static function getStandName($name, $standardNames)
     {
+        // 如果有配置，则直接返回
         if (isset($standardNames[$name])) {
             return $standardNames[$name];
         }
@@ -152,13 +153,25 @@ class Configs
                 $wsNames[$standardName] = $standardName;
             }
         }
+        // 去除 4K,8K, 1080P, 720P, 480P, 360P, 240P, 144P, 4k, 8k, 1080p, 720p, 480p, 360p, 240p, 144p
+        $name = preg_replace('/[0-9]+[kKpPmM]+/', '', $name);
+        $name = preg_replace('/4 *[美欧亚洲]+/', '', $name);
         // cctv的名称搜索，除了cctv5
         if (strpos($name, 'CCTV') !== false) {
             $matches   = [];
-            $isMatched = preg_match_all('/[1-9]+/', $name, $matches);
-            $first     = $matches[0][0] ?? 0;
+            $isMatched = preg_match_all('/[0-9]+/', $name, $matches);
+            // 如果第一个是0就排除掉
+            if (isset($matches[0][0]) && $matches[0][0] == 0) {
+                unset($matches[0][0]);
+            }
+            $ms    = array_values($matches[0]);
+            $first = $ms[0] ?? 0;
             if ($isMatched && $first != 5) {
-                return 'CCTV-' . implode('', array_slice($matches[0], 0, 2));
+                $num = implode('', array_slice($ms, 0, 2));
+                if ($num > 20) {
+                    $num = $ms[0];
+                }
+                return 'CCTV-' . $num;
             }
             if ($isMatched && $first == 5) {
                 $keys = ['p', '+', 'plus'];

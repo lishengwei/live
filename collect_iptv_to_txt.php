@@ -97,10 +97,10 @@ foreach ($sort as $sortName) {
     $all = array_merge($all, $validInfos[$sortName]);
 }
 
-$handler = fopen(LOCAL_DIR . '/zijian2.txt', 'w+');
+$handler = fopen(LOCAL_DIR . '/live.txt', 'w+');
 fwrite($handler, '聚合直播,#genre#' . PHP_EOL);
 foreach ($all as $item) {
     fwrite($handler, $item['name'] . ',' . $item['url'] . PHP_EOL);
 }
 fclose($handler);
-echo '转换完成，文件存储至：' . LOCAL_DIR . '/zijian2.txt' . PHP_EOL;
+echo '转换完成，文件存储至：' . LOCAL_DIR . '/live.txt' . PHP_EOL;
