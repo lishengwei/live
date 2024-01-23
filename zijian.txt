@@ -2,8 +2,8 @@ CCTV13,https://live-play.cctvnews.cctv.com/cctv/merge_cctv13_mud.m3u8
 CCTV-1,http://192.168.1.11:8099/live/jz-cctv-1/live.m3u8
 CCTV-5,http://192.168.1.11:8099/live/jz-cctv-5/live.m3u8
 CCTV-6,http://192.168.1.11:8099/live/jz-cctv-6/live.m3u8
-河南卫视,http://192.168.1.11:8099/live/jz-henandushi/live.m3u8
-河南都市,http://192.168.1.11:8099/live/jz-henandushi/live.m3u8
-北京卫视,http://192.168.1.11:8099/live/jz-beijingweishi/live.m3u8
-河南民生,http://192.168.1.11:8099/live/jz-henanminsheng/live.m3u8
-河南梨园,http://192.168.1.11:8099/live/jz-henanliyuan/live.m3u8
+河南卫视,http://192.168.1.111:8099/live/jz-henandushi/live.m3u8
+河南都市,http://192.168.1.111:8099/live/jz-henandushi/live.m3u8
+北京卫视,http://192.168.1.111:8099/live/jz-beijingweishi/live.m3u8
+河南民生,http://192.168.1.111:8099/live/jz-henanminsheng/live.m3u8
+河南梨园,http://192.168.1.111:8099/live/jz-henanliyuan/live.m3u8
