@@ -13,10 +13,10 @@ return [
 //        'host'    => [],
 //        'headers' => ['User-Agent: okhttp/3.12.11']
 //    ],
-    [
-        'url'   => 'https://ddns.10086.fund:23350/iptv.m3u',
-        'hosts' => [],
-    ],
+//    [
+//        'url'   => 'https://ddns.10086.fund:23350/iptv.m3u',
+//        'hosts' => [],
+//    ],
 //    [
 //        'url'   => 'http://8.210.232.168/xclive.txt',
 //        'hosts' => []
