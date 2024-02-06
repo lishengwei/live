@@ -1,10 +1,17 @@
 <?php
 include_once 'config.php';
-$content = file_get_contents(LOCAL_DIR . '/zijian2.txt');
+$url     = $argv[1] ?? '';
+if (empty($url)) {
+    $url = '/live.txt';
+}
+if (strpos($url,'http') === false) {
+    $url = LOCAL_DIR . $url;
+}
+$content = file_get_contents($url);
 $array   = explode(PHP_EOL, $content);
-$hander  = fopen(LOCAL_DIR . '/zijian_convert.m3u8', 'w');
+$hander  = fopen(LOCAL_DIR . '/live.m3u8', 'w');
 echo '开始转换txt -> m3u8' . PHP_EOL;
-echo '文件存储至' . LOCAL_DIR . '/zijian_convert.m3u8' . PHP_EOL;
+echo '文件存储至' . LOCAL_DIR . '/live.m3u8' . PHP_EOL;
 foreach ($array as $item) {
     if (empty($item)) {
         continue;
