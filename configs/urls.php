@@ -41,7 +41,7 @@ return [
 //        'proxy' => [],
 //    ],
     [
-        'url'   => 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/Meroser/IPTV/main/IPTV.m3u',
+        'url'   => 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/Meroser/IPTV/main/IPTV-tvbox.txt',
         'hosts' => [],
         'proxy' => [],
     ],
