@@ -40,4 +40,9 @@ return [
 //        'hosts' => [],
 //        'proxy' => [],
 //    ],
+    [
+        'url'   => 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/Meroser/IPTV/main/IPTV.m3u',
+        'hosts' => [],
+        'proxy' => [],
+    ],
 ];
